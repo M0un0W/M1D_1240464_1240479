@@ -1,0 +1,204 @@
+13d325c2918b7bb5b27318fb8896d0ab2fdae75e acb56cb5c91bb87dff6692e12212bbe73833044a rmfranca <1221708@isep.ipp.pt> 1712930012 +0100	fetch --tags origin: fast-forward
+acb56cb5c91bb87dff6692e12212bbe73833044a c50f73f265a85279302fabc1314786febf4a2eca rmfranca <1221708@isep.ipp.pt> 1713020742 +0100	update by push
+c50f73f265a85279302fabc1314786febf4a2eca 4276a5de31e6701bcaab1d298225414b80a9b9e1 rmfranca <1221708@isep.ipp.pt> 1713438083 +0100	update by push
+4276a5de31e6701bcaab1d298225414b80a9b9e1 a5a50c8c83f2214ef8328dd6c0323774c78029d4 rmfranca <1221708@isep.ipp.pt> 1713456059 +0100	update by push
+a5a50c8c83f2214ef8328dd6c0323774c78029d4 4ba11a3738e6f122cd163b27af0febc447a788c5 rmfranca <1221708@isep.ipp.pt> 1713481229 +0100	update by push
+4ba11a3738e6f122cd163b27af0febc447a788c5 9850fd56f86058fff7d361477868ec787eb42d9d rmfranca <1221708@isep.ipp.pt> 1713536828 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+9850fd56f86058fff7d361477868ec787eb42d9d 437bfc3152207e3853481c0db8b87c8f99f68c0f rmfranca <1221708@isep.ipp.pt> 1713538675 +0100	update by push
+437bfc3152207e3853481c0db8b87c8f99f68c0f 419ce88b4eb521e8190e83c0d013d4b6767e0660 rmfranca <1221708@isep.ipp.pt> 1713566785 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+419ce88b4eb521e8190e83c0d013d4b6767e0660 89d631188fdaffda3b27396c6e72b0b0185aeacd rmfranca <1221708@isep.ipp.pt> 1713826945 +0100	update by push
+89d631188fdaffda3b27396c6e72b0b0185aeacd b997010e4802322ca75a322bd41b1ce621fa7495 rmfranca <1221708@isep.ipp.pt> 1714069846 +0100	update by push
+b997010e4802322ca75a322bd41b1ce621fa7495 dee1848a53c458b04b96570120153638eacdb79a rmfranca <1221708@isep.ipp.pt> 1714137066 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+dee1848a53c458b04b96570120153638eacdb79a 47f18ebb5ad393a0959407114c0fa788b4b76c1b rmfranca <1221708@isep.ipp.pt> 1714138720 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+47f18ebb5ad393a0959407114c0fa788b4b76c1b 3a2e26ced3cc9841a87607b86254a05008e2c19e rmfranca <1221708@isep.ipp.pt> 1714139650 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+3a2e26ced3cc9841a87607b86254a05008e2c19e 19419220a8fa7dafde90679957de49c37fadf752 rmfranca <1221708@isep.ipp.pt> 1714139658 +0100	update by push
+19419220a8fa7dafde90679957de49c37fadf752 70a72548799346e1bc1052584fbe25a2c92080de rmfranca <1221708@isep.ipp.pt> 1714143748 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+70a72548799346e1bc1052584fbe25a2c92080de a7b7e1ac932960af0d56d1bb2fa5ab2a9fdb363d rmfranca <1221708@isep.ipp.pt> 1714144098 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+a7b7e1ac932960af0d56d1bb2fa5ab2a9fdb363d 2908b6414245e3f22c562084b5e749cc2f9dad5a rmfranca <1221708@isep.ipp.pt> 1714144106 +0100	update by push
+2908b6414245e3f22c562084b5e749cc2f9dad5a 821a41c1e18ffc5b9a113f17ee6917f2467e16a2 rmfranca <1221708@isep.ipp.pt> 1714159538 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+821a41c1e18ffc5b9a113f17ee6917f2467e16a2 515cee99435c1653e36b47496fbf57215f88685a rmfranca <1221708@isep.ipp.pt> 1714160730 +0100	update by push
+515cee99435c1653e36b47496fbf57215f88685a ca3b8e6eda8d3e00ff9f90903931180658f89037 rmfranca <1221708@isep.ipp.pt> 1714167416 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+ca3b8e6eda8d3e00ff9f90903931180658f89037 28986b84461f26f39bf0a5a790159b7063802792 rmfranca <1221708@isep.ipp.pt> 1714176567 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+28986b84461f26f39bf0a5a790159b7063802792 2aae22bc8046c4a5b1bc917937d2034b088c45b8 rmfranca <1221708@isep.ipp.pt> 1714177055 +0100	update by push
+2aae22bc8046c4a5b1bc917937d2034b088c45b8 47f61e2bbb2b232685258a181fdab09df47d2452 rmfranca <1221708@isep.ipp.pt> 1714339447 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+47f61e2bbb2b232685258a181fdab09df47d2452 cbde052c6bbf81ad139e786f33cdc0b5b671d90c rmfranca <1221708@isep.ipp.pt> 1714340895 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+cbde052c6bbf81ad139e786f33cdc0b5b671d90c 51152b4e76bb94e948589fa32232a6c50bb76160 rmfranca <1221708@isep.ipp.pt> 1714343283 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+51152b4e76bb94e948589fa32232a6c50bb76160 964df5c70443798665e22d82a84680129e4b49ef rmfranca <1221708@isep.ipp.pt> 1714422489 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+964df5c70443798665e22d82a84680129e4b49ef af955bc0b0473b9c07eb86ad2d80bd13abed9a95 rmfranca <1221708@isep.ipp.pt> 1714427235 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+af955bc0b0473b9c07eb86ad2d80bd13abed9a95 99854a20a70f356f90c778e92fe5bacb8c6a400a rmfranca <1221708@isep.ipp.pt> 1714434667 +0100	update by push
+99854a20a70f356f90c778e92fe5bacb8c6a400a f83b6c23d39294e0638a65c7e0ddc4396fd0a1d1 rmfranca <1221708@isep.ipp.pt> 1714468398 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+f83b6c23d39294e0638a65c7e0ddc4396fd0a1d1 9466f00e6e5872d6a6afa9be677e04ad439052c7 rmfranca <1221708@isep.ipp.pt> 1714472152 +0100	update by push
+9466f00e6e5872d6a6afa9be677e04ad439052c7 ac7cdddfd7a2bcc0696513359f81e64af82826a4 rmfranca <1221708@isep.ipp.pt> 1714476039 +0100	update by push
+ac7cdddfd7a2bcc0696513359f81e64af82826a4 736ac6848d4985d10c4c6ea5dab08ea32ee00e64 rmfranca <1221708@isep.ipp.pt> 1714490442 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+736ac6848d4985d10c4c6ea5dab08ea32ee00e64 e70c85fb5bdb2710c044c8a24d30d8fe9475b5bd rmfranca <1221708@isep.ipp.pt> 1714490450 +0100	update by push
+e70c85fb5bdb2710c044c8a24d30d8fe9475b5bd dd00d5054a45da9ffefc25abe7c4fb1b5794fc1c rmfranca <1221708@isep.ipp.pt> 1714495069 +0100	update by push
+dd00d5054a45da9ffefc25abe7c4fb1b5794fc1c 37850f2554e6f28f00828a6af0de185349d65c3c rmfranca <1221708@isep.ipp.pt> 1714499798 +0100	update by push
+37850f2554e6f28f00828a6af0de185349d65c3c ab5fb347842be721639f20db2d6dd147164ca301 rmfranca <1221708@isep.ipp.pt> 1714505379 +0100	update by push
+ab5fb347842be721639f20db2d6dd147164ca301 d1d9283aaa4ba4352b86635921e4cc426426646d rmfranca <1221708@isep.ipp.pt> 1714512725 +0100	update by push
+d1d9283aaa4ba4352b86635921e4cc426426646d f58a69c85367e929b002815686138b74aaf47bcb rmfranca <1221708@isep.ipp.pt> 1714515187 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+f58a69c85367e929b002815686138b74aaf47bcb 8e40336a834814b033e7c4173043dfbc0e1595e9 rmfranca <1221708@isep.ipp.pt> 1714519296 +0100	update by push
+8e40336a834814b033e7c4173043dfbc0e1595e9 7178fb83fd7273575da8ec01b02e7580d00309b0 rmfranca <1221708@isep.ipp.pt> 1714570614 +0100	update by push
+7178fb83fd7273575da8ec01b02e7580d00309b0 d87f0892b016e0d6c2443e80599df782101ac77f rmfranca <1221708@isep.ipp.pt> 1714578239 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+d87f0892b016e0d6c2443e80599df782101ac77f 60dc39036dd381f399c96aa6e0b46d5121fc7ae6 rmfranca <1221708@isep.ipp.pt> 1714579116 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+60dc39036dd381f399c96aa6e0b46d5121fc7ae6 103e4ac680b7b67c1d5075993306f68395785dca rmfranca <1221708@isep.ipp.pt> 1714579231 +0100	update by push
+103e4ac680b7b67c1d5075993306f68395785dca 9c77adca1994cd1d9809e44a42a75d0c26fd24e8 rmfranca <1221708@isep.ipp.pt> 1714586562 +0100	update by push
+9c77adca1994cd1d9809e44a42a75d0c26fd24e8 b242a508faf444f9f26fce91e8706c05d2a1b957 rmfranca <1221708@isep.ipp.pt> 1714588626 +0100	update by push
+b242a508faf444f9f26fce91e8706c05d2a1b957 92c08c132632ae130c0d4e2edfe64ba48aebc192 rmfranca <1221708@isep.ipp.pt> 1714601494 +0100	update by push
+92c08c132632ae130c0d4e2edfe64ba48aebc192 bb37fef81ac174bf692aaa6acbacb4a24007a88a rmfranca <1221708@isep.ipp.pt> 1714607114 +0100	update by push
+bb37fef81ac174bf692aaa6acbacb4a24007a88a bed011ab4b0f8b7f9650b15d4cb6dccc715f5d6f rmfranca <1221708@isep.ipp.pt> 1714656702 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+bed011ab4b0f8b7f9650b15d4cb6dccc715f5d6f 5e828b7a229df806089aa1bde54a4ced6505610e rmfranca <1221708@isep.ipp.pt> 1714657006 +0100	update by push
+5e828b7a229df806089aa1bde54a4ced6505610e 0001ab4d1e883eb78456e3a60c155039b0cef191 rmfranca <1221708@isep.ipp.pt> 1714660058 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+0001ab4d1e883eb78456e3a60c155039b0cef191 d6432cb5fdede6090a0a7fb9c02273a8c6043277 rmfranca <1221708@isep.ipp.pt> 1714660759 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+d6432cb5fdede6090a0a7fb9c02273a8c6043277 7ebce12b653cde41b911a6b541f7e45c40138c14 rmfranca <1221708@isep.ipp.pt> 1714665978 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+7ebce12b653cde41b911a6b541f7e45c40138c14 a51d269575fb8463a4e559645c1f27a7cfb092fd rmfranca <1221708@isep.ipp.pt> 1714665993 +0100	update by push
+a51d269575fb8463a4e559645c1f27a7cfb092fd 8662ea41d861b8f457cb62426ea13fa8d2e75911 rmfranca <1221708@isep.ipp.pt> 1714729226 +0100	update by push
+8662ea41d861b8f457cb62426ea13fa8d2e75911 53e585894e79045a60fae94aabe61891cfa3b3f5 rmfranca <1221708@isep.ipp.pt> 1714747852 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+53e585894e79045a60fae94aabe61891cfa3b3f5 5a99418493d8dbc9da60a9e5551bd4e8f01b8def rmfranca <1221708@isep.ipp.pt> 1714749628 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+5a99418493d8dbc9da60a9e5551bd4e8f01b8def 6ffcc8edb1e2332f62092cd17c0f8790e1184396 rmfranca <1221708@isep.ipp.pt> 1714756320 +0100	update by push
+6ffcc8edb1e2332f62092cd17c0f8790e1184396 117b61e0bce8afe9e0d0f5c189888e3c9d4f52f8 rmfranca <1221708@isep.ipp.pt> 1714784449 +0100	update by push
+117b61e0bce8afe9e0d0f5c189888e3c9d4f52f8 3b17f66a9b9d5aad135a694cfe2700b3b8fade07 rmfranca <1221708@isep.ipp.pt> 1714830527 +0100	update by push
+3b17f66a9b9d5aad135a694cfe2700b3b8fade07 905e2e983636b9ed381403324e7211efc19eaa67 rmfranca <1221708@isep.ipp.pt> 1714831781 +0100	update by push
+905e2e983636b9ed381403324e7211efc19eaa67 2e380dc2e24fee3a01c6275e12bdce138905684d rmfranca <1221708@isep.ipp.pt> 1714834076 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+2e380dc2e24fee3a01c6275e12bdce138905684d 0420d26556df38e31fd56c506bdc6685ba2fb8b9 rmfranca <1221708@isep.ipp.pt> 1714835917 +0100	update by push
+0420d26556df38e31fd56c506bdc6685ba2fb8b9 bcec15f15595231b806ddaf0379a1a1f18c2502b rmfranca <1221708@isep.ipp.pt> 1714864928 +0100	update by push
+bcec15f15595231b806ddaf0379a1a1f18c2502b 47edf8d0a9a8d93c06eb10f4f08acbaee0ae0317 rmfranca <1221708@isep.ipp.pt> 1714871947 +0100	update by push
+47edf8d0a9a8d93c06eb10f4f08acbaee0ae0317 9319c2fe32759f547512fe14bb416a36f378a8dc rmfranca <1221708@isep.ipp.pt> 1714937119 +0100	update by push
+9319c2fe32759f547512fe14bb416a36f378a8dc b3b8f8dd52717b41de7e9bfb88c915d7a4d3d1ad rmfranca <1221708@isep.ipp.pt> 1714952633 +0100	update by push
+b3b8f8dd52717b41de7e9bfb88c915d7a4d3d1ad 30f2b47d2f9e8f317ba3ee374670663fbbdde013 rmfranca <1221708@isep.ipp.pt> 1714956206 +0100	update by push
+30f2b47d2f9e8f317ba3ee374670663fbbdde013 58967124380aaa4990f09c853a322867afcf1967 rmfranca <1221708@isep.ipp.pt> 1714998119 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+58967124380aaa4990f09c853a322867afcf1967 6590a024f58a9b18a2e6141f4244dd99e1526581 rmfranca <1221708@isep.ipp.pt> 1715009008 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+6590a024f58a9b18a2e6141f4244dd99e1526581 9bcdaa5adb77e4c4355f8a14e21e6a690887da61 rmfranca <1221708@isep.ipp.pt> 1715009019 +0100	update by push
+9bcdaa5adb77e4c4355f8a14e21e6a690887da61 348ac24f7ebbc47f10a234e32ae4b4e36eac720b rmfranca <1221708@isep.ipp.pt> 1715013282 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+348ac24f7ebbc47f10a234e32ae4b4e36eac720b 6f8ff6247b53647579569af0d12772aaceb82b2c rmfranca <1221708@isep.ipp.pt> 1715015790 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+6f8ff6247b53647579569af0d12772aaceb82b2c b5b8c3de598702086d36ad69dcc2bd70f60252cc rmfranca <1221708@isep.ipp.pt> 1715016433 +0100	update by push
+b5b8c3de598702086d36ad69dcc2bd70f60252cc 9991eceade3f9b371c0317b2f4d62e95a0cc4eea rmfranca <1221708@isep.ipp.pt> 1715026123 +0100	update by push
+9991eceade3f9b371c0317b2f4d62e95a0cc4eea 6ea29b1c45d549f9cb63baa0040cb1c459d865d4 rmfranca <1221708@isep.ipp.pt> 1715042096 +0100	update by push
+6ea29b1c45d549f9cb63baa0040cb1c459d865d4 d321354fb1979a32334145f0c884811820e5fce1 rmfranca <1221708@isep.ipp.pt> 1715044181 +0100	update by push
+d321354fb1979a32334145f0c884811820e5fce1 4e3db4ecfedebc9adb844ad0a9c8af42cc3d7bf9 rmfranca <1221708@isep.ipp.pt> 1715048900 +0100	update by push
+4e3db4ecfedebc9adb844ad0a9c8af42cc3d7bf9 01679076c8169e76b042e611fd30d8c6f06f0f52 rmfranca <1221708@isep.ipp.pt> 1715088058 +0100	update by push
+01679076c8169e76b042e611fd30d8c6f06f0f52 ba7ffa334b4c7401ac7a62e3668486607ba2591c rmfranca <1221708@isep.ipp.pt> 1715197046 +0100	update by push
+ba7ffa334b4c7401ac7a62e3668486607ba2591c 33c3c518960cb409c2cb983d0044939a9cb1dc3f rmfranca <1221708@isep.ipp.pt> 1715218608 +0100	update by push
+33c3c518960cb409c2cb983d0044939a9cb1dc3f 15a824b3e259f0c7a21a42bf821db67c68dbbaae rmfranca <1221708@isep.ipp.pt> 1715271665 +0100	update by push
+15a824b3e259f0c7a21a42bf821db67c68dbbaae 6371e707ca6162538baaf811d621fcca9eee6409 rmfranca <1221708@isep.ipp.pt> 1715278709 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+6371e707ca6162538baaf811d621fcca9eee6409 d76b2e7cbf493ae5ac6ae0c05a362f609570f8cb rmfranca <1221708@isep.ipp.pt> 1715546222 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+d76b2e7cbf493ae5ac6ae0c05a362f609570f8cb 480c4d7adfc56983407148c6de5bf0f08816bdf3 rmfranca <1221708@isep.ipp.pt> 1715547919 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+480c4d7adfc56983407148c6de5bf0f08816bdf3 b2668253564a51fc02b8f3c28aecdebade2da83c rmfranca <1221708@isep.ipp.pt> 1715549861 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+b2668253564a51fc02b8f3c28aecdebade2da83c 071d9b86f188aaec2ca1ec29be3b1ebff12a78e9 rmfranca <1221708@isep.ipp.pt> 1715549870 +0100	update by push
+071d9b86f188aaec2ca1ec29be3b1ebff12a78e9 e471968ab7fda1dd8412b8a842ab707ec650491a rmfranca <1221708@isep.ipp.pt> 1715550817 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+e471968ab7fda1dd8412b8a842ab707ec650491a cb6d8ab9c42586bca24833833e1f83a15fcee374 rmfranca <1221708@isep.ipp.pt> 1715553238 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+cb6d8ab9c42586bca24833833e1f83a15fcee374 e18ef613d3941bbdc9d231a47d824195c785837a rmfranca <1221708@isep.ipp.pt> 1715554408 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+e18ef613d3941bbdc9d231a47d824195c785837a cd548a65d1fba9ea2c6a30902a26d8da99375ebf rmfranca <1221708@isep.ipp.pt> 1715872440 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+cd548a65d1fba9ea2c6a30902a26d8da99375ebf 644ef53af007a85805604ea5152078a33d0b0a9a rmfranca <1221708@isep.ipp.pt> 1715873184 +0100	update by push
+644ef53af007a85805604ea5152078a33d0b0a9a 2c5663dde577056ef4c9ac2f8574a50d320ed5cc rmfranca <1221708@isep.ipp.pt> 1715879867 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+2c5663dde577056ef4c9ac2f8574a50d320ed5cc 4a24addbd557fdc469a8ccf9985edec469ff1846 rmfranca <1221708@isep.ipp.pt> 1715906144 +0100	update by push
+4a24addbd557fdc469a8ccf9985edec469ff1846 6b4d6d570d189250184572197197acd6d77faf98 rmfranca <1221708@isep.ipp.pt> 1716064479 +0100	update by push
+6b4d6d570d189250184572197197acd6d77faf98 4e4a25e7cf98903509c149403fb16808fed0f857 rmfranca <1221708@isep.ipp.pt> 1716460553 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+4e4a25e7cf98903509c149403fb16808fed0f857 b584bf88e441290aeb239a52446b0cc0194fbe0c rmfranca <1221708@isep.ipp.pt> 1716826520 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+b584bf88e441290aeb239a52446b0cc0194fbe0c 7a36b6ba3a0966bd830f92a881d4c25f2d131876 rmfranca <1221708@isep.ipp.pt> 1716975556 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+7a36b6ba3a0966bd830f92a881d4c25f2d131876 b4db9c828269c002b711292bbf41b5ee0b2f7a70 rmfranca <1221708@isep.ipp.pt> 1716980910 +0100	update by push
+b4db9c828269c002b711292bbf41b5ee0b2f7a70 37d81eac2b481562d66715c766c1607a2e417a8e rmfranca <1221708@isep.ipp.pt> 1717063633 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+37d81eac2b481562d66715c766c1607a2e417a8e 86ed5b6c4649fb33f51d3c060b6c9f0ecd5b4826 rmfranca <1221708@isep.ipp.pt> 1717063642 +0100	update by push
+86ed5b6c4649fb33f51d3c060b6c9f0ecd5b4826 cf268f4d4f46918482b9703fe5cafac69175a982 rmfranca <1221708@isep.ipp.pt> 1717066943 +0100	update by push
+cf268f4d4f46918482b9703fe5cafac69175a982 bc55e11f67ff7df161ae66acbbd6f771f9444a5a rmfranca <1221708@isep.ipp.pt> 1717067620 +0100	update by push
+bc55e11f67ff7df161ae66acbbd6f771f9444a5a 7f222703214930c30a0d341dd053c24bc8ab7095 rmfranca <1221708@isep.ipp.pt> 1717110405 +0100	update by push
+7f222703214930c30a0d341dd053c24bc8ab7095 03520a1889bbb4e564e887ff284d9ed6d23f8cb0 rmfranca <1221708@isep.ipp.pt> 1717119754 +0100	update by push
+03520a1889bbb4e564e887ff284d9ed6d23f8cb0 04e89ad18a4c1c3f800111523e28d80dce41340c rmfranca <1221708@isep.ipp.pt> 1717153972 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+04e89ad18a4c1c3f800111523e28d80dce41340c c6ca3354630d0d883f67396bf2e388d69223c1b4 rmfranca <1221708@isep.ipp.pt> 1717161778 +0100	update by push
+c6ca3354630d0d883f67396bf2e388d69223c1b4 ca3fe56e1e4138e92ad53383975ff0da34aba71d rmfranca <1221708@isep.ipp.pt> 1717162474 +0100	update by push
+ca3fe56e1e4138e92ad53383975ff0da34aba71d 6e53d8de5e90dcaabaa4c88edacba472eb4a2533 rmfranca <1221708@isep.ipp.pt> 1717167574 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+6e53d8de5e90dcaabaa4c88edacba472eb4a2533 765a616a5713dc3b1c2f0a92550757742fb04ccc rmfranca <1221708@isep.ipp.pt> 1717167582 +0100	update by push
+765a616a5713dc3b1c2f0a92550757742fb04ccc 6f665c5459d09e9acdb43cb77377fe723635d473 rmfranca <1221708@isep.ipp.pt> 1717189060 +0100	update by push
+6f665c5459d09e9acdb43cb77377fe723635d473 54d3d108b5bc48736385a0d8434c4089b34ff3d2 rmfranca <1221708@isep.ipp.pt> 1717283314 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+54d3d108b5bc48736385a0d8434c4089b34ff3d2 0e6f5964f2a98f2b9b264c958f2e1d24545fd639 rmfranca <1221708@isep.ipp.pt> 1717379822 +0100	update by push
+0e6f5964f2a98f2b9b264c958f2e1d24545fd639 1ed73dd4f978c44811d2d750020ad0154e855def rmfranca <1221708@isep.ipp.pt> 1717384603 +0100	update by push
+1ed73dd4f978c44811d2d750020ad0154e855def 211f42f9ecf2022d20b3ff3446227b752efdab61 rmfranca <1221708@isep.ipp.pt> 1717385044 +0100	update by push
+211f42f9ecf2022d20b3ff3446227b752efdab61 2e31ac07ea858389e3c381aaf9812934664585e4 rmfranca <1221708@isep.ipp.pt> 1717411869 +0100	update by push
+2e31ac07ea858389e3c381aaf9812934664585e4 e945fa8cb5511802e431dbb94e994ab101dfeb1e rmfranca <1221708@isep.ipp.pt> 1717430705 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+e945fa8cb5511802e431dbb94e994ab101dfeb1e 620d39e0fe6be8f9b40f694de4c24347131b5976 rmfranca <1221708@isep.ipp.pt> 1717441891 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+620d39e0fe6be8f9b40f694de4c24347131b5976 49e2df33d130c96c2970c159f303e0ff92ebbe8b rmfranca <1221708@isep.ipp.pt> 1717443436 +0100	update by push
+49e2df33d130c96c2970c159f303e0ff92ebbe8b b363383b8b0dea592c7cda3b9b6ec2091c9b403b rmfranca <1221708@isep.ipp.pt> 1717451430 +0100	update by push
+b363383b8b0dea592c7cda3b9b6ec2091c9b403b 34b9fd12cd9301da71eba77b608aa15ff1fc2d99 rmfranca <1221708@isep.ipp.pt> 1717456602 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+34b9fd12cd9301da71eba77b608aa15ff1fc2d99 ab265a3f73168e956f8f23dceebfbd7e435788c3 rmfranca <1221708@isep.ipp.pt> 1717456611 +0100	update by push
+ab265a3f73168e956f8f23dceebfbd7e435788c3 ed42cda39f82184b4721f0f65552336435890728 rmfranca <1221708@isep.ipp.pt> 1717465508 +0100	update by push
+ed42cda39f82184b4721f0f65552336435890728 7798e3ebd967224ae34172e2a0733b783ac6ad19 rmfranca <1221708@isep.ipp.pt> 1717467999 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+7798e3ebd967224ae34172e2a0733b783ac6ad19 602aa8f80edc4f321dba3beb37c2df8fc52ca438 rmfranca <1221708@isep.ipp.pt> 1717468009 +0100	update by push
+602aa8f80edc4f321dba3beb37c2df8fc52ca438 d2c3b018b1fed8ef2e9d34dfab4e50f996dd496a rmfranca <1221708@isep.ipp.pt> 1717506256 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+d2c3b018b1fed8ef2e9d34dfab4e50f996dd496a 643d671abb5dbae30e15a0c315b0b44f1779b352 rmfranca <1221708@isep.ipp.pt> 1717518513 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+643d671abb5dbae30e15a0c315b0b44f1779b352 6f242c14249914c6907f6d632c9164bddf028538 rmfranca <1221708@isep.ipp.pt> 1717518857 +0100	update by push
+6f242c14249914c6907f6d632c9164bddf028538 cbd275ae88e85bdc59991e6a959335cc62482f09 rmfranca <1221708@isep.ipp.pt> 1717525501 +0100	update by push
+cbd275ae88e85bdc59991e6a959335cc62482f09 af999653602324b8eede523434bc7745de443b9b rmfranca <1221708@isep.ipp.pt> 1717525607 +0100	update by push
+af999653602324b8eede523434bc7745de443b9b 5b0dcf60329a149a221b49bf3164507681252359 rmfranca <1221708@isep.ipp.pt> 1717534148 +0100	update by push
+5b0dcf60329a149a221b49bf3164507681252359 7f4cf9b0b1941c5ee76e95618e394dd7885f529a rmfranca <1221708@isep.ipp.pt> 1717536100 +0100	update by push
+7f4cf9b0b1941c5ee76e95618e394dd7885f529a 5b1ca90e3eeafe10c4581d72a444077f70edc51a rmfranca <1221708@isep.ipp.pt> 1717539529 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+5b1ca90e3eeafe10c4581d72a444077f70edc51a f25010988ef4eff51df799e28ca19205850d3f58 rmfranca <1221708@isep.ipp.pt> 1717540772 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+f25010988ef4eff51df799e28ca19205850d3f58 f98046a4b05a36aba881b2a0de3ac329956fe298 rmfranca <1221708@isep.ipp.pt> 1717546080 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+f98046a4b05a36aba881b2a0de3ac329956fe298 42e8a04bfa7df0858d92b72f39d2e0af2ae57fb2 rmfranca <1221708@isep.ipp.pt> 1717552726 +0100	update by push
+42e8a04bfa7df0858d92b72f39d2e0af2ae57fb2 9aeb61c3ccb3f972a1667fd2e63324994571cea3 rmfranca <1221708@isep.ipp.pt> 1717552963 +0100	update by push
+9aeb61c3ccb3f972a1667fd2e63324994571cea3 343fab9174972703915cc5d8ee909a26f4046372 rmfranca <1221708@isep.ipp.pt> 1717553978 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+343fab9174972703915cc5d8ee909a26f4046372 2fd758a91279537d6bf727a58a344e3f2d819901 rmfranca <1221708@isep.ipp.pt> 1717590278 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+2fd758a91279537d6bf727a58a344e3f2d819901 f6cace11da8ee2d330d2f914f89e9997d7d734e1 rmfranca <1221708@isep.ipp.pt> 1717590417 +0100	update by push
+f6cace11da8ee2d330d2f914f89e9997d7d734e1 9fe848c53bb352a9f1a2a87d5bec801a0088756c rmfranca <1221708@isep.ipp.pt> 1717596301 +0100	update by push
+9fe848c53bb352a9f1a2a87d5bec801a0088756c 249fe92cd973b1ec8421698ce8533e22958e9063 rmfranca <1221708@isep.ipp.pt> 1717598624 +0100	update by push
+249fe92cd973b1ec8421698ce8533e22958e9063 61627027d00f49a7673551c4cd3828eb14bbb363 rmfranca <1221708@isep.ipp.pt> 1717604807 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+61627027d00f49a7673551c4cd3828eb14bbb363 621f1668b0b1114c5b5597cad3cce4ac315e5059 rmfranca <1221708@isep.ipp.pt> 1717605043 +0100	update by push
+621f1668b0b1114c5b5597cad3cce4ac315e5059 0b7906c19320f5e041069830309a36ad8ed863a0 rmfranca <1221708@isep.ipp.pt> 1717605821 +0100	update by push
+0b7906c19320f5e041069830309a36ad8ed863a0 77843a868ae45e562cc6b95c2045421d4c7a33f2 rmfranca <1221708@isep.ipp.pt> 1717618120 +0100	update by push
+77843a868ae45e562cc6b95c2045421d4c7a33f2 2ae7d5faac1e4c1366ebc13387bf6eb2ea143fec rmfranca <1221708@isep.ipp.pt> 1717620605 +0100	update by push
+2ae7d5faac1e4c1366ebc13387bf6eb2ea143fec 1c0dc1ca1679343250c26d0353d39035540ecf30 rmfranca <1221708@isep.ipp.pt> 1717624666 +0100	update by push
+1c0dc1ca1679343250c26d0353d39035540ecf30 52ce25531ea305c7bcda712067e16a1e779830fd rmfranca <1221708@isep.ipp.pt> 1717629080 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+52ce25531ea305c7bcda712067e16a1e779830fd 7b5b2a5329406213522cc571b8f4a104f4025dfb rmfranca <1221708@isep.ipp.pt> 1717629347 +0100	update by push
+7b5b2a5329406213522cc571b8f4a104f4025dfb 9ede9f84230d284565cdaf2c30c963bcda9c0b77 rmfranca <1221708@isep.ipp.pt> 1717632914 +0100	update by push
+9ede9f84230d284565cdaf2c30c963bcda9c0b77 7f861665ede4d925d45cbdc61cecafca1803612d rmfranca <1221708@isep.ipp.pt> 1717639713 +0100	update by push
+7f861665ede4d925d45cbdc61cecafca1803612d 9df18ffc09043e12e23f92d1c3580865456a629b rmfranca <1221708@isep.ipp.pt> 1717640911 +0100	update by push
+9df18ffc09043e12e23f92d1c3580865456a629b c13b5cc8d2d0db546067ee4011279833f1beadef rmfranca <1221708@isep.ipp.pt> 1717682027 +0100	update by push
+c13b5cc8d2d0db546067ee4011279833f1beadef 664e9ec4e7ec4b9dbb6e55c3d97d48f1df55398f rmfranca <1221708@isep.ipp.pt> 1717682595 +0100	update by push
+664e9ec4e7ec4b9dbb6e55c3d97d48f1df55398f ca993eddec23f03e99601b6f0c6e340957e0a78a rmfranca <1221708@isep.ipp.pt> 1717687447 +0100	update by push
+ca993eddec23f03e99601b6f0c6e340957e0a78a 3c952d4e4999952ba7a49059cc2cfcc372574cb3 rmfranca <1221708@isep.ipp.pt> 1717699978 +0100	update by push
+3c952d4e4999952ba7a49059cc2cfcc372574cb3 f8fbd2a9671b10b73802061fb454848e587fbf1d rmfranca <1221708@isep.ipp.pt> 1717702503 +0100	update by push
+f8fbd2a9671b10b73802061fb454848e587fbf1d 85dfd7676bfd3f33c5f4f748821508418cb2b552 rmfranca <1221708@isep.ipp.pt> 1717704777 +0100	update by push
+85dfd7676bfd3f33c5f4f748821508418cb2b552 a50615085fb45eae6e859f73bebf140710b86f02 rmfranca <1221708@isep.ipp.pt> 1717720297 +0100	update by push
+a50615085fb45eae6e859f73bebf140710b86f02 7c3300a26c4c0d0062f74beaa8ea03b312db429f rmfranca <1221708@isep.ipp.pt> 1717730761 +0100	update by push
+7c3300a26c4c0d0062f74beaa8ea03b312db429f 3e44f8ff35633f660f4beeebbb7077bd2dee2347 rmfranca <1221708@isep.ipp.pt> 1717771057 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+3e44f8ff35633f660f4beeebbb7077bd2dee2347 4e2c7d649b6975fe272b0b678626f95dae5e55f1 rmfranca <1221708@isep.ipp.pt> 1717771859 +0100	update by push
+4e2c7d649b6975fe272b0b678626f95dae5e55f1 6fd68f50c86ef501367c2825b8a2f8c0b63dceb8 rmfranca <1221708@isep.ipp.pt> 1717780638 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+6fd68f50c86ef501367c2825b8a2f8c0b63dceb8 cb50f9587d8bbb4285cbf6f236dfe4550c814aa5 rmfranca <1221708@isep.ipp.pt> 1717782087 +0100	update by push
+cb50f9587d8bbb4285cbf6f236dfe4550c814aa5 e95c91bb4e200ad17bfb461f65921152780bdf09 rmfranca <1221708@isep.ipp.pt> 1717820763 +0100	update by push
+e95c91bb4e200ad17bfb461f65921152780bdf09 3a1500551444da67ea9d1d57c90c75a96330161c rmfranca <1221708@isep.ipp.pt> 1717821040 +0100	update by push
+3a1500551444da67ea9d1d57c90c75a96330161c 3e56aafaaa0aeefcd35d0c7f2d114cf340b4cf04 rmfranca <1221708@isep.ipp.pt> 1717862001 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+3e56aafaaa0aeefcd35d0c7f2d114cf340b4cf04 89bf981d28a806fb302ef1257e8f3c08e5f2e321 rmfranca <1221708@isep.ipp.pt> 1717865858 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+89bf981d28a806fb302ef1257e8f3c08e5f2e321 567108f0d935209dbc3dcbb1ab29ce966c910b6d rmfranca <1221708@isep.ipp.pt> 1717872254 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+567108f0d935209dbc3dcbb1ab29ce966c910b6d 24f742d908e6fa53ce7f6e49e82ce2047d35f568 rmfranca <1221708@isep.ipp.pt> 1717881342 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+24f742d908e6fa53ce7f6e49e82ce2047d35f568 c1732b96f892785448ea4fb1b301598cb4765c42 rmfranca <1221708@isep.ipp.pt> 1717891899 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+c1732b96f892785448ea4fb1b301598cb4765c42 2500bb1eb7b225ce4b20491e8adfe45cc951b35b rmfranca <1221708@isep.ipp.pt> 1717892480 +0100	update by push
+2500bb1eb7b225ce4b20491e8adfe45cc951b35b b54ca6949b0d104154d425c70c0cafe0aa661bbb rmfranca <1221708@isep.ipp.pt> 1717894972 +0100	update by push
+b54ca6949b0d104154d425c70c0cafe0aa661bbb 1c00662904cd5753addd484b2872e42ea3bdedae rmfranca <1221708@isep.ipp.pt> 1717899828 +0100	update by push
+1c00662904cd5753addd484b2872e42ea3bdedae 5a5e7241de60146e92c1dace28523f6fe7a7729d rmfranca <1221708@isep.ipp.pt> 1717947903 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+5a5e7241de60146e92c1dace28523f6fe7a7729d ced183b4e1c538129e3e51f41fa4a00c7abf1040 rmfranca <1221708@isep.ipp.pt> 1717948406 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+ced183b4e1c538129e3e51f41fa4a00c7abf1040 ffb5aa7ae942d46b43e44efb993b5f09e7fb5018 rmfranca <1221708@isep.ipp.pt> 1717955922 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+ffb5aa7ae942d46b43e44efb993b5f09e7fb5018 859f1570eff51e6967ea7f599eaf465935539837 rmfranca <1221708@isep.ipp.pt> 1717974836 +0100	update by push
+859f1570eff51e6967ea7f599eaf465935539837 80a076bdadb37b73f7e0b8c92bf367c6e569cc40 rmfranca <1221708@isep.ipp.pt> 1717980669 +0100	update by push
+80a076bdadb37b73f7e0b8c92bf367c6e569cc40 64eff7a9ab023a7a1dc0b4888c5a8fc7222e093a rmfranca <1221708@isep.ipp.pt> 1717988020 +0100	update by push
+64eff7a9ab023a7a1dc0b4888c5a8fc7222e093a 180b846f7e1de8a9f4de1cef4348f8b8391945cd rmfranca <1221708@isep.ipp.pt> 1718020746 +0100	update by push
+180b846f7e1de8a9f4de1cef4348f8b8391945cd 314dd04122eeea70d8e824d6f05ecc35ff91a870 rmfranca <1221708@isep.ipp.pt> 1718030441 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+314dd04122eeea70d8e824d6f05ecc35ff91a870 0b1d427ab537b9b70d9cd853a2d4c70ee039881b rmfranca <1221708@isep.ipp.pt> 1718031513 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+0b1d427ab537b9b70d9cd853a2d4c70ee039881b 0d4925c3ab5225c03b0fc35efbb0ef5a67ce15b4 rmfranca <1221708@isep.ipp.pt> 1718031597 +0100	update by push
+0d4925c3ab5225c03b0fc35efbb0ef5a67ce15b4 8f3aeb83f83653ec7abab7bb6430121c68a61bac rmfranca <1221708@isep.ipp.pt> 1718036495 +0100	update by push
+8f3aeb83f83653ec7abab7bb6430121c68a61bac 98682339f4c68e08a7ed9e92fd5690b7957ddbc3 rmfranca <1221708@isep.ipp.pt> 1718038011 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+98682339f4c68e08a7ed9e92fd5690b7957ddbc3 60ae1689e1fff8ea54d023c4ca60a90471896287 rmfranca <1221708@isep.ipp.pt> 1718038058 +0100	update by push
+60ae1689e1fff8ea54d023c4ca60a90471896287 499810b27d8370aeade25fcc5df0a82c69198ca0 rmfranca <1221708@isep.ipp.pt> 1718039507 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+499810b27d8370aeade25fcc5df0a82c69198ca0 67edd58fbcc0e6e60d9cb62e095a5719264cfbe1 rmfranca <1221708@isep.ipp.pt> 1718040335 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+67edd58fbcc0e6e60d9cb62e095a5719264cfbe1 ae5e8dbbf8c0c85346f0f4e59a5b27594b751c07 rmfranca <1221708@isep.ipp.pt> 1718042399 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+ae5e8dbbf8c0c85346f0f4e59a5b27594b751c07 616ffcddbadd9302a7148244a2532b7729baf10a rmfranca <1221708@isep.ipp.pt> 1718043693 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+616ffcddbadd9302a7148244a2532b7729baf10a 7ecb4d76cea8e30e2362d3f667cbd97cf05d06fa rmfranca <1221708@isep.ipp.pt> 1718043702 +0100	update by push
+7ecb4d76cea8e30e2362d3f667cbd97cf05d06fa 357c5a5a3664cd9f623b88a8575052a4b31df78f rmfranca <1221708@isep.ipp.pt> 1718044979 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+357c5a5a3664cd9f623b88a8575052a4b31df78f 17fd1dd5dd94338c86c2707dc20cb66fda8b4519 rmfranca <1221708@isep.ipp.pt> 1718048382 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+17fd1dd5dd94338c86c2707dc20cb66fda8b4519 3379c8764f0cf34f38849818725cac21b49917c3 rmfranca <1221708@isep.ipp.pt> 1718048391 +0100	update by push
+3379c8764f0cf34f38849818725cac21b49917c3 fedf028f54e5f41c1bf6d6a300184e525f34cfd6 rmfranca <1221708@isep.ipp.pt> 1718049801 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+fedf028f54e5f41c1bf6d6a300184e525f34cfd6 54d2780aca2ded4b0ccbfb8161a0598bf09adbaa rmfranca <1221708@isep.ipp.pt> 1718056282 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+54d2780aca2ded4b0ccbfb8161a0598bf09adbaa 5a9bcd3abb05312ab706fe97f8ce9c94fc55c991 rmfranca <1221708@isep.ipp.pt> 1718056290 +0100	update by push
+5a9bcd3abb05312ab706fe97f8ce9c94fc55c991 79eb7e42099714e7cfaec02b00d130f29376b30f rmfranca <1221708@isep.ipp.pt> 1718056858 +0100	update by push
+79eb7e42099714e7cfaec02b00d130f29376b30f 5d77285232576d371cafae4548d8feed93bcf7a5 rmfranca <1221708@isep.ipp.pt> 1718057055 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+5d77285232576d371cafae4548d8feed93bcf7a5 d03d686df0359b1798dd1f6f54cee4e7e4cd90b9 rmfranca <1221708@isep.ipp.pt> 1718057193 +0100	update by push
+d03d686df0359b1798dd1f6f54cee4e7e4cd90b9 1b579709352116f8b564288288a4df038723a52b rmfranca <1221708@isep.ipp.pt> 1718060106 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+1b579709352116f8b564288288a4df038723a52b 9c28306028f87e3cb41f4b0def9ee527089d4c41 rmfranca <1221708@isep.ipp.pt> 1718060215 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward
+9c28306028f87e3cb41f4b0def9ee527089d4c41 c716e065eb70038a9b8001aaab59922a677f0ac3 rmfranca <1221708@isep.ipp.pt> 1718060292 +0100	fetch origin --recurse-submodules=no --progress --prune: fast-forward

@@ -1,0 +1,33 @@
+{
+  "$id": "7",
+  "AutoRefresh": true,
+  "AutoRefreshRemotes": true,
+  "CommitTextLinks": null,
+  "DraftCommitMsg": "",
+  "IncomingSavedCount": 0,
+  "LastCheckedRemotes": "2024-04-19T15:49:03.8136714+01:00",
+  "LastUsedView": 0,
+  "LogBranchFilterIndex": 0,
+  "OutgoingSavedCount": 0,
+  "SidebarExpandedItems": [
+    "Branches"
+  ],
+  "SidebarWidth": 210.0,
+  "SubtreeLinks": [],
+  "NeedsLargeFilesPull": false,
+  "RemoteProjectLinks": [
+    {
+      "$id": "8",
+      "BaseUrl": "https://bitbucket.org/",
+      "Identifier": "",
+      "RemoteName": "origin",
+      "Type": 0,
+      "Username": "rmfranca",
+      "CloneUrl": "https://rmfranca@bitbucket.org/isep-leti-psoft/psoft-project-2024-g1.git",
+      "ProjectUrl": "https://bitbucket.org/isep-leti-psoft/psoft-project-2024-g1",
+      "AccountId": "rmfranca@bitbucket.org",
+      "AvatarUrl": "https://bytebucket.org/ravatar/%7B1d5cdeac-f607-437a-8fbe-7e191b2a5ac2%7D?ts=default",
+      "DisplayName": "origin: https://bitbucket.org/"
+    }
+  ]
+}

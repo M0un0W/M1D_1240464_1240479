@@ -1,0 +1,211 @@
+0000000000000000000000000000000000000000 13d325c2918b7bb5b27318fb8896d0ab2fdae75e rmfranca <1221708@isep.ipp.pt> 1712928984 +0100	clone: from https://bitbucket.org/isep-leti-psoft/psoft-project-2024-g1.git
+13d325c2918b7bb5b27318fb8896d0ab2fdae75e e640c53722b1de0917c9fa5b0fa9b88d471ff3e9 rmfranca <1221708@isep.ipp.pt> 1713020439 +0100	commit: Domain model
+e640c53722b1de0917c9fa5b0fa9b88d471ff3e9 3a4e5c4f812c03cbe051d959bcf44883f22f3d30 rmfranca <1221708@isep.ipp.pt> 1713020505 +0100	pull: Merge made by the 'ort' strategy.
+3a4e5c4f812c03cbe051d959bcf44883f22f3d30 c50f73f265a85279302fabc1314786febf4a2eca rmfranca <1221708@isep.ipp.pt> 1713020732 +0100	commit: Domain Model
+c50f73f265a85279302fabc1314786febf4a2eca 4276a5de31e6701bcaab1d298225414b80a9b9e1 rmfranca <1221708@isep.ipp.pt> 1713438067 +0100	commit: Some work on collating information.
+4276a5de31e6701bcaab1d298225414b80a9b9e1 a5a50c8c83f2214ef8328dd6c0323774c78029d4 rmfranca <1221708@isep.ipp.pt> 1713456051 +0100	commit: Some more work on collating information.
+a5a50c8c83f2214ef8328dd6c0323774c78029d4 4ba11a3738e6f122cd163b27af0febc447a788c5 rmfranca <1221708@isep.ipp.pt> 1713481213 +0100	commit: Some more work on collating information.
+4ba11a3738e6f122cd163b27af0febc447a788c5 9850fd56f86058fff7d361477868ec787eb42d9d rmfranca <1221708@isep.ipp.pt> 1713536829 +0100	merge origin/main: Fast-forward
+9850fd56f86058fff7d361477868ec787eb42d9d 437bfc3152207e3853481c0db8b87c8f99f68c0f rmfranca <1221708@isep.ipp.pt> 1713538668 +0100	commit: Work on WPA4 - Lendings.
+437bfc3152207e3853481c0db8b87c8f99f68c0f 419ce88b4eb521e8190e83c0d013d4b6767e0660 rmfranca <1221708@isep.ipp.pt> 1713566788 +0100	merge origin/main: Fast-forward
+419ce88b4eb521e8190e83c0d013d4b6767e0660 89d631188fdaffda3b27396c6e72b0b0185aeacd rmfranca <1221708@isep.ipp.pt> 1713826935 +0100	commit: Work on WPA4 - Lendings. Some folder organization. pom.xml made similar to example project
+89d631188fdaffda3b27396c6e72b0b0185aeacd b997010e4802322ca75a322bd41b1ce621fa7495 rmfranca <1221708@isep.ipp.pt> 1714069837 +0100	commit: Work on WPA4 - Lendings.
+b997010e4802322ca75a322bd41b1ce621fa7495 dee1848a53c458b04b96570120153638eacdb79a rmfranca <1221708@isep.ipp.pt> 1714137069 +0100	merge origin/main: Fast-forward
+dee1848a53c458b04b96570120153638eacdb79a 47f18ebb5ad393a0959407114c0fa788b4b76c1b rmfranca <1221708@isep.ipp.pt> 1714138720 +0100	merge origin/main: Fast-forward
+47f18ebb5ad393a0959407114c0fa788b4b76c1b 5d9f00eb6a314ea2e566cd71bd2510d761a33bd7 rmfranca <1221708@isep.ipp.pt> 1714139636 +0100	commit: Auth, Exceptions and User management, adapted from example project (wip)
+5d9f00eb6a314ea2e566cd71bd2510d761a33bd7 19419220a8fa7dafde90679957de49c37fadf752 rmfranca <1221708@isep.ipp.pt> 1714139651 +0100	merge origin/main: Merge made by the 'ort' strategy.
+19419220a8fa7dafde90679957de49c37fadf752 70a72548799346e1bc1052584fbe25a2c92080de rmfranca <1221708@isep.ipp.pt> 1714143750 +0100	merge origin/main: Fast-forward
+70a72548799346e1bc1052584fbe25a2c92080de 1972c09e6b5668e26625d3191f2a3dbb449fc47d rmfranca <1221708@isep.ipp.pt> 1714144088 +0100	commit: Work on Global Domain Model, Work planning, and WP4A
+1972c09e6b5668e26625d3191f2a3dbb449fc47d 2908b6414245e3f22c562084b5e749cc2f9dad5a rmfranca <1221708@isep.ipp.pt> 1714144099 +0100	merge origin/main: Merge made by the 'ort' strategy.
+2908b6414245e3f22c562084b5e749cc2f9dad5a 821a41c1e18ffc5b9a113f17ee6917f2467e16a2 rmfranca <1221708@isep.ipp.pt> 1714159539 +0100	merge origin/main: Fast-forward
+821a41c1e18ffc5b9a113f17ee6917f2467e16a2 515cee99435c1653e36b47496fbf57215f88685a rmfranca <1221708@isep.ipp.pt> 1714160722 +0100	commit: Work on Books WP
+515cee99435c1653e36b47496fbf57215f88685a ca3b8e6eda8d3e00ff9f90903931180658f89037 rmfranca <1221708@isep.ipp.pt> 1714167417 +0100	merge origin/main: Fast-forward
+ca3b8e6eda8d3e00ff9f90903931180658f89037 28986b84461f26f39bf0a5a790159b7063802792 rmfranca <1221708@isep.ipp.pt> 1714176568 +0100	merge origin/main: Fast-forward
+28986b84461f26f39bf0a5a790159b7063802792 2aae22bc8046c4a5b1bc917937d2034b088c45b8 rmfranca <1221708@isep.ipp.pt> 1714177046 +0100	commit: Domain Classes and other minor fixes
+2aae22bc8046c4a5b1bc917937d2034b088c45b8 47f61e2bbb2b232685258a181fdab09df47d2452 rmfranca <1221708@isep.ipp.pt> 1714339449 +0100	merge origin/main: Fast-forward
+47f61e2bbb2b232685258a181fdab09df47d2452 cbde052c6bbf81ad139e786f33cdc0b5b671d90c rmfranca <1221708@isep.ipp.pt> 1714340896 +0100	merge origin/main: Fast-forward
+cbde052c6bbf81ad139e786f33cdc0b5b671d90c 51152b4e76bb94e948589fa32232a6c50bb76160 rmfranca <1221708@isep.ipp.pt> 1714343285 +0100	merge origin/main: Fast-forward
+51152b4e76bb94e948589fa32232a6c50bb76160 964df5c70443798665e22d82a84680129e4b49ef rmfranca <1221708@isep.ipp.pt> 1714422491 +0100	merge origin/main: Fast-forward
+964df5c70443798665e22d82a84680129e4b49ef af955bc0b0473b9c07eb86ad2d80bd13abed9a95 rmfranca <1221708@isep.ipp.pt> 1714427236 +0100	merge origin/main: Fast-forward
+af955bc0b0473b9c07eb86ad2d80bd13abed9a95 99854a20a70f356f90c778e92fe5bacb8c6a400a rmfranca <1221708@isep.ipp.pt> 1714434658 +0100	commit: Work on Lendings/Fine (Model, Service, DTO, Repository)
+99854a20a70f356f90c778e92fe5bacb8c6a400a f83b6c23d39294e0638a65c7e0ddc4396fd0a1d1 rmfranca <1221708@isep.ipp.pt> 1714468399 +0100	merge origin/main: Fast-forward
+f83b6c23d39294e0638a65c7e0ddc4396fd0a1d1 9466f00e6e5872d6a6afa9be677e04ad439052c7 rmfranca <1221708@isep.ipp.pt> 1714472144 +0100	commit: More misc work
+9466f00e6e5872d6a6afa9be677e04ad439052c7 ac7cdddfd7a2bcc0696513359f81e64af82826a4 rmfranca <1221708@isep.ipp.pt> 1714476030 +0100	commit: More misc work on Lendings
+ac7cdddfd7a2bcc0696513359f81e64af82826a4 b3131fac489d60083c3dc31791d3eb6deb3ab3b9 rmfranca <1221708@isep.ipp.pt> 1714490431 +0100	commit: More misc work on Lendings
+b3131fac489d60083c3dc31791d3eb6deb3ab3b9 e70c85fb5bdb2710c044c8a24d30d8fe9475b5bd rmfranca <1221708@isep.ipp.pt> 1714490442 +0100	merge origin/main: Merge made by the 'ort' strategy.
+e70c85fb5bdb2710c044c8a24d30d8fe9475b5bd dd00d5054a45da9ffefc25abe7c4fb1b5794fc1c rmfranca <1221708@isep.ipp.pt> 1714495060 +0100	commit: application.properties - change to in-memory db (temporarily)
+dd00d5054a45da9ffefc25abe7c4fb1b5794fc1c 37850f2554e6f28f00828a6af0de185349d65c3c rmfranca <1221708@isep.ipp.pt> 1714499787 +0100	commit: Fixed broken ManyToMany relation on Book
+37850f2554e6f28f00828a6af0de185349d65c3c ab5fb347842be721639f20db2d6dd147164ca301 rmfranca <1221708@isep.ipp.pt> 1714505365 +0100	commit: Fine became part of Lending. Changes to LendingNumber. Lending creation implemented on Service.
+ab5fb347842be721639f20db2d6dd147164ca301 d1d9283aaa4ba4352b86635921e4cc426426646d rmfranca <1221708@isep.ipp.pt> 1714512716 +0100	commit: Work on Return Book US
+d1d9283aaa4ba4352b86635921e4cc426426646d f58a69c85367e929b002815686138b74aaf47bcb rmfranca <1221708@isep.ipp.pt> 1714515188 +0100	merge origin/main: Fast-forward
+f58a69c85367e929b002815686138b74aaf47bcb 8e40336a834814b033e7c4173043dfbc0e1595e9 rmfranca <1221708@isep.ipp.pt> 1714519287 +0100	commit: Work on Return Book US - Checking for overdue books, and if there are 3 already with the reader.
+8e40336a834814b033e7c4173043dfbc0e1595e9 7178fb83fd7273575da8ec01b02e7580d00309b0 rmfranca <1221708@isep.ipp.pt> 1714570606 +0100	commit: updated pom.xml to better match demo project
+7178fb83fd7273575da8ec01b02e7580d00309b0 d87f0892b016e0d6c2443e80599df782101ac77f rmfranca <1221708@isep.ipp.pt> 1714578240 +0100	merge origin/main: Fast-forward
+d87f0892b016e0d6c2443e80599df782101ac77f 60dc39036dd381f399c96aa6e0b46d5121fc7ae6 rmfranca <1221708@isep.ipp.pt> 1714579116 +0100	merge origin/main: Fast-forward
+60dc39036dd381f399c96aa6e0b46d5121fc7ae6 103e4ac680b7b67c1d5075993306f68395785dca rmfranca <1221708@isep.ipp.pt> 1714579222 +0100	commit: Documentation of Lending domain classes. Fixed association with reader ID. Other misc work on Lendings WP
+103e4ac680b7b67c1d5075993306f68395785dca 9c77adca1994cd1d9809e44a42a75d0c26fd24e8 rmfranca <1221708@isep.ipp.pt> 1714586555 +0100	commit: Some ammendments to Book domain
+9c77adca1994cd1d9809e44a42a75d0c26fd24e8 b242a508faf444f9f26fce91e8706c05d2a1b957 rmfranca <1221708@isep.ipp.pt> 1714588618 +0100	commit: Work on WP4A - Lendings (Controller, Mappers, Views, etc)
+b242a508faf444f9f26fce91e8706c05d2a1b957 92c08c132632ae130c0d4e2edfe64ba48aebc192 rmfranca <1221708@isep.ipp.pt> 1714601483 +0100	commit: program runs with some methods commented out. further work is required on them
+92c08c132632ae130c0d4e2edfe64ba48aebc192 bb37fef81ac174bf692aaa6acbacb4a24007a88a rmfranca <1221708@isep.ipp.pt> 1714607105 +0100	commit: h2 server running in memory again. can be checked on a browser, while application is running
+bb37fef81ac174bf692aaa6acbacb4a24007a88a fee7aae53bcefc1f264b57425cc76baaa67ee4d7 rmfranca <1221708@isep.ipp.pt> 1714656689 +0100	commit: Updated DomainModel. Fixed paths to AuthorController.java and BookController.java
+fee7aae53bcefc1f264b57425cc76baaa67ee4d7 5e828b7a229df806089aa1bde54a4ced6505610e rmfranca <1221708@isep.ipp.pt> 1714656960 +0100	commit (merge): Merge remote-tracking branch 'origin/main'
+5e828b7a229df806089aa1bde54a4ced6505610e 0001ab4d1e883eb78456e3a60c155039b0cef191 rmfranca <1221708@isep.ipp.pt> 1714660059 +0100	merge origin/main: Fast-forward
+0001ab4d1e883eb78456e3a60c155039b0cef191 d6432cb5fdede6090a0a7fb9c02273a8c6043277 rmfranca <1221708@isep.ipp.pt> 1714660760 +0100	merge origin/main: Fast-forward
+d6432cb5fdede6090a0a7fb9c02273a8c6043277 7d70d71412ae57c4982d74e4581c4c21b3a61b18 rmfranca <1221708@isep.ipp.pt> 1714665953 +0100	commit: application.properties updated, h2 integration
+7d70d71412ae57c4982d74e4581c4c21b3a61b18 a51d269575fb8463a4e559645c1f27a7cfb092fd rmfranca <1221708@isep.ipp.pt> 1714665981 +0100	merge origin/main: Merge made by the 'ort' strategy.
+a51d269575fb8463a4e559645c1f27a7cfb092fd 8662ea41d861b8f457cb62426ea13fa8d2e75911 rmfranca <1221708@isep.ipp.pt> 1714729217 +0100	commit: Minor fixes to Author and Book aggregates. Business rules for user Name.
+8662ea41d861b8f457cb62426ea13fa8d2e75911 53e585894e79045a60fae94aabe61891cfa3b3f5 rmfranca <1221708@isep.ipp.pt> 1714747854 +0100	merge origin/main: Fast-forward
+53e585894e79045a60fae94aabe61891cfa3b3f5 5a99418493d8dbc9da60a9e5551bd4e8f01b8def rmfranca <1221708@isep.ipp.pt> 1714749640 +0100	merge origin/main: Fast-forward
+5a99418493d8dbc9da60a9e5551bd4e8f01b8def 6ffcc8edb1e2332f62092cd17c0f8790e1184396 rmfranca <1221708@isep.ipp.pt> 1714756310 +0100	commit: Changes to Lending and Fine. Fixes to Bootstrapper
+6ffcc8edb1e2332f62092cd17c0f8790e1184396 117b61e0bce8afe9e0d0f5c189888e3c9d4f52f8 rmfranca <1221708@isep.ipp.pt> 1714784438 +0100	commit: Fixes to column definitions (string lengths). Fixes to SpringData sql queries. Work on Bootstrapper
+117b61e0bce8afe9e0d0f5c189888e3c9d4f52f8 3b17f66a9b9d5aad135a694cfe2700b3b8fade07 rmfranca <1221708@isep.ipp.pt> 1714830513 +0100	commit: LENDINGSERVICE(S) AND LENDINGREPOSITORY(IES) MAY NOT BE WORKING. Created 'shared' package. Changes to mappers.
+3b17f66a9b9d5aad135a694cfe2700b3b8fade07 905e2e983636b9ed381403324e7211efc19eaa67 rmfranca <1221708@isep.ipp.pt> 1714831773 +0100	commit: Joins with pk's instead of isbn fixed the problem
+905e2e983636b9ed381403324e7211efc19eaa67 2e380dc2e24fee3a01c6275e12bdce138905684d rmfranca <1221708@isep.ipp.pt> 1714834077 +0100	merge origin/main: Fast-forward
+2e380dc2e24fee3a01c6275e12bdce138905684d 0420d26556df38e31fd56c506bdc6685ba2fb8b9 rmfranca <1221708@isep.ipp.pt> 1714835906 +0100	commit: Misc work on Books, Authors and Fines
+0420d26556df38e31fd56c506bdc6685ba2fb8b9 bcec15f15595231b806ddaf0379a1a1f18c2502b rmfranca <1221708@isep.ipp.pt> 1714864919 +0100	commit: Misc work on String values (Books, Authors)
+bcec15f15595231b806ddaf0379a1a1f18c2502b 47edf8d0a9a8d93c06eb10f4f08acbaee0ae0317 rmfranca <1221708@isep.ipp.pt> 1714871934 +0100	commit: Author Bio logic and tests. Some fixes to Reader/User.
+47edf8d0a9a8d93c06eb10f4f08acbaee0ae0317 9319c2fe32759f547512fe14bb416a36f378a8dc rmfranca <1221708@isep.ipp.pt> 1714937108 +0100	commit: Misc work on Authors.
+9319c2fe32759f547512fe14bb416a36f378a8dc b3b8f8dd52717b41de7e9bfb88c915d7a4d3d1ad rmfranca <1221708@isep.ipp.pt> 1714952623 +0100	commit: Rest mapping proposal
+b3b8f8dd52717b41de7e9bfb88c915d7a4d3d1ad 30f2b47d2f9e8f317ba3ee374670663fbbdde013 rmfranca <1221708@isep.ipp.pt> 1714956196 +0100	commit: Author and Book aggregates tests. Minor changes to Lendings/Fines.
+30f2b47d2f9e8f317ba3ee374670663fbbdde013 58967124380aaa4990f09c853a322867afcf1967 rmfranca <1221708@isep.ipp.pt> 1714998120 +0100	merge origin/main: Fast-forward
+58967124380aaa4990f09c853a322867afcf1967 274e0acae163828ea5332a44231082c6c5911a86 rmfranca <1221708@isep.ipp.pt> 1715008994 +0100	commit: Added findByUsername in Reader repo/service
+274e0acae163828ea5332a44231082c6c5911a86 9bcdaa5adb77e4c4355f8a14e21e6a690887da61 rmfranca <1221708@isep.ipp.pt> 1715009009 +0100	merge origin/main: Merge made by the 'ort' strategy.
+9bcdaa5adb77e4c4355f8a14e21e6a690887da61 348ac24f7ebbc47f10a234e32ae4b4e36eac720b rmfranca <1221708@isep.ipp.pt> 1715013283 +0100	merge origin/main: Fast-forward
+348ac24f7ebbc47f10a234e32ae4b4e36eac720b 6f8ff6247b53647579569af0d12772aaceb82b2c rmfranca <1221708@isep.ipp.pt> 1715015791 +0100	merge origin/main: Fast-forward
+6f8ff6247b53647579569af0d12772aaceb82b2c b5b8c3de598702086d36ad69dcc2bd70f60252cc rmfranca <1221708@isep.ipp.pt> 1715016423 +0100	commit: Removed Librarian as Entity -> demoted to Role in User. Minor changes to Bootstrapper
+b5b8c3de598702086d36ad69dcc2bd70f60252cc 9991eceade3f9b371c0317b2f4d62e95a0cc4eea rmfranca <1221708@isep.ipp.pt> 1715026110 +0100	commit: Work on LendingController (create done. get done. setReturned done?)
+9991eceade3f9b371c0317b2f4d62e95a0cc4eea 6ea29b1c45d549f9cb63baa0040cb1c459d865d4 rmfranca <1221708@isep.ipp.pt> 1715042087 +0100	commit: Misc work (tests, domain rules, readability)
+6ea29b1c45d549f9cb63baa0040cb1c459d865d4 d321354fb1979a32334145f0c884811820e5fce1 rmfranca <1221708@isep.ipp.pt> 1715044173 +0100	commit: Misc fixes
+d321354fb1979a32334145f0c884811820e5fce1 4e3db4ecfedebc9adb844ad0a9c8af42cc3d7bf9 rmfranca <1221708@isep.ipp.pt> 1715048888 +0100	commit: Streamlined Password Check. Implemented getReaderLendingsByIsbn on ReaderController. Updated RestMapping proposal. Created Librarian and Reader classes for better managing User creation and validation
+4e3db4ecfedebc9adb844ad0a9c8af42cc3d7bf9 01679076c8169e76b042e611fd30d8c6f06f0f52 rmfranca <1221708@isep.ipp.pt> 1715088048 +0100	commit: LendingNumber tests. Misc fixes.
+01679076c8169e76b042e611fd30d8c6f06f0f52 ba7ffa334b4c7401ac7a62e3668486607ba2591c rmfranca <1221708@isep.ipp.pt> 1715197038 +0100	commit: Lending tests. Misc fixes.
+ba7ffa334b4c7401ac7a62e3668486607ba2591c 33c3c518960cb409c2cb983d0044939a9cb1dc3f rmfranca <1221708@isep.ipp.pt> 1715218597 +0100	commit: Split Bootstrapper. User integration tests. Properties file. Changes to Lending.
+33c3c518960cb409c2cb983d0044939a9cb1dc3f 15a824b3e259f0c7a21a42bf821db67c68dbbaae rmfranca <1221708@isep.ipp.pt> 1715271656 +0100	commit: Fixed Book_Author table, fixed Boostrap which now populates all relevant tables.
+15a824b3e259f0c7a21a42bf821db67c68dbbaae 6371e707ca6162538baaf811d621fcca9eee6409 rmfranca <1221708@isep.ipp.pt> 1715278713 +0100	merge origin/main: Fast-forward
+6371e707ca6162538baaf811d621fcca9eee6409 d76b2e7cbf493ae5ac6ae0c05a362f609570f8cb rmfranca <1221708@isep.ipp.pt> 1715546224 +0100	merge origin/main: Fast-forward
+d76b2e7cbf493ae5ac6ae0c05a362f609570f8cb 480c4d7adfc56983407148c6de5bf0f08816bdf3 rmfranca <1221708@isep.ipp.pt> 1715547920 +0100	merge origin/main: Fast-forward
+480c4d7adfc56983407148c6de5bf0f08816bdf3 544bd26b4b04446237831f3272cb0b541d9b4943 rmfranca <1221708@isep.ipp.pt> 1715549850 +0100	commit: TestAuthApi not in use. Fixes to Book related issues
+544bd26b4b04446237831f3272cb0b541d9b4943 071d9b86f188aaec2ca1ec29be3b1ebff12a78e9 rmfranca <1221708@isep.ipp.pt> 1715549862 +0100	merge origin/main: Merge made by the 'ort' strategy.
+071d9b86f188aaec2ca1ec29be3b1ebff12a78e9 e471968ab7fda1dd8412b8a842ab707ec650491a rmfranca <1221708@isep.ipp.pt> 1715550818 +0100	merge origin/main: Fast-forward
+e471968ab7fda1dd8412b8a842ab707ec650491a cb6d8ab9c42586bca24833833e1f83a15fcee374 rmfranca <1221708@isep.ipp.pt> 1715553238 +0100	merge origin/main: Fast-forward
+cb6d8ab9c42586bca24833833e1f83a15fcee374 e18ef613d3941bbdc9d231a47d824195c785837a rmfranca <1221708@isep.ipp.pt> 1715554409 +0100	merge origin/main: Fast-forward
+e18ef613d3941bbdc9d231a47d824195c785837a cd548a65d1fba9ea2c6a30902a26d8da99375ebf rmfranca <1221708@isep.ipp.pt> 1715872442 +0100	merge origin/main: Fast-forward
+cd548a65d1fba9ea2c6a30902a26d8da99375ebf 644ef53af007a85805604ea5152078a33d0b0a9a rmfranca <1221708@isep.ipp.pt> 1715873175 +0100	commit: Last commit before phase 1 submission
+644ef53af007a85805604ea5152078a33d0b0a9a 2c5663dde577056ef4c9ac2f8574a50d320ed5cc rmfranca <1221708@isep.ipp.pt> 1715879868 +0100	merge origin/main: Fast-forward
+2c5663dde577056ef4c9ac2f8574a50d320ed5cc 4a24addbd557fdc469a8ccf9985edec469ff1846 rmfranca <1221708@isep.ipp.pt> 1715906134 +0100	commit: Reworked some aspects of Reader/User management.
+4a24addbd557fdc469a8ccf9985edec469ff1846 6b4d6d570d189250184572197197acd6d77faf98 rmfranca <1221708@isep.ipp.pt> 1716064468 +0100	commit: Updated SecurityConfig
+6b4d6d570d189250184572197197acd6d77faf98 4e4a25e7cf98903509c149403fb16808fed0f857 rmfranca <1221708@isep.ipp.pt> 1716460555 +0100	merge origin/main: Fast-forward
+4e4a25e7cf98903509c149403fb16808fed0f857 b584bf88e441290aeb239a52446b0cc0194fbe0c rmfranca <1221708@isep.ipp.pt> 1716826522 +0100	merge origin/main: Fast-forward
+b584bf88e441290aeb239a52446b0cc0194fbe0c 2bac203962bf35494993970b76b1f40f176a49bc rmfranca <1221708@isep.ipp.pt> 1716826860 +0100	commit: RestMapping proposal for phase 2. Two UCs missing
+2bac203962bf35494993970b76b1f40f176a49bc d0b685edf0af2ac30ab1f2c90e6722e9117cbc86 rmfranca <1221708@isep.ipp.pt> 1716975558 +0100	merge origin/main: Merge made by the 'ort' strategy.
+d0b685edf0af2ac30ab1f2c90e6722e9117cbc86 b4db9c828269c002b711292bbf41b5ee0b2f7a70 rmfranca <1221708@isep.ipp.pt> 1716980900 +0100	commit: Fixed check for over 3 lendings. Ph2 Lendings docs. Other misc lendings work
+b4db9c828269c002b711292bbf41b5ee0b2f7a70 24b45564b9663076e02a46cd8798279530757a5e rmfranca <1221708@isep.ipp.pt> 1717063619 +0100	commit: RestMapping.md , phase 2
+24b45564b9663076e02a46cd8798279530757a5e 86ed5b6c4649fb33f51d3c060b6c9f0ecd5b4826 rmfranca <1221708@isep.ipp.pt> 1717063634 +0100	merge origin/main: Merge made by the 'ort' strategy.
+86ed5b6c4649fb33f51d3c060b6c9f0ecd5b4826 cf268f4d4f46918482b9703fe5cafac69175a982 rmfranca <1221708@isep.ipp.pt> 1717066933 +0100	commit: Lending US15 implemented and tested on Postman
+cf268f4d4f46918482b9703fe5cafac69175a982 bc55e11f67ff7df161ae66acbbd6f771f9444a5a rmfranca <1221708@isep.ipp.pt> 1717067612 +0100	commit: Page & SearchRequest moved to 'shared' package, other misc fixes
+bc55e11f67ff7df161ae66acbbd6f771f9444a5a 7f222703214930c30a0d341dd053c24bc8ab7095 rmfranca <1221708@isep.ipp.pt> 1717110043 +0100	commit: RestMapping updated
+7f222703214930c30a0d341dd053c24bc8ab7095 c1d42d2a43116743d7a763339129d0050e64c874 rmfranca <1221708@isep.ipp.pt> 1717119629 +0100	commit: API endpoints => plural.
+c1d42d2a43116743d7a763339129d0050e64c874 03520a1889bbb4e564e887ff284d9ed6d23f8cb0 rmfranca <1221708@isep.ipp.pt> 1717119744 +0100	commit: API endpoints => plural. Lending US14 implemented and tested on Postman
+03520a1889bbb4e564e887ff284d9ed6d23f8cb0 04e89ad18a4c1c3f800111523e28d80dce41340c rmfranca <1221708@isep.ipp.pt> 1717153982 +0100	merge origin/main: Fast-forward
+04e89ad18a4c1c3f800111523e28d80dce41340c c6ca3354630d0d883f67396bf2e388d69223c1b4 rmfranca <1221708@isep.ipp.pt> 1717161770 +0100	commit: ListResponse moved to 'shared' package. Small fix to SpringDataGenreRepository
+c6ca3354630d0d883f67396bf2e388d69223c1b4 ca3fe56e1e4138e92ad53383975ff0da34aba71d rmfranca <1221708@isep.ipp.pt> 1717162466 +0100	commit: New postman collection and environment
+ca3fe56e1e4138e92ad53383975ff0da34aba71d 170834eb5d0f49e1027c7e56ff1574a8ddeba7a3 rmfranca <1221708@isep.ipp.pt> 1717167563 +0100	commit: UserService now checks who is logged in. Updated SecurityConfig
+170834eb5d0f49e1027c7e56ff1574a8ddeba7a3 765a616a5713dc3b1c2f0a92550757742fb04ccc rmfranca <1221708@isep.ipp.pt> 1717167575 +0100	merge origin/main: Merge made by the 'ort' strategy.
+765a616a5713dc3b1c2f0a92550757742fb04ccc 6f665c5459d09e9acdb43cb77377fe723635d473 rmfranca <1221708@isep.ipp.pt> 1717189052 +0100	commit: Moved getVersionFromIfMatchHeader to ConcurrencyService. Misc QoL fixes to authors
+6f665c5459d09e9acdb43cb77377fe723635d473 54d3d108b5bc48736385a0d8434c4089b34ff3d2 rmfranca <1221708@isep.ipp.pt> 1717283316 +0100	merge origin/main: Fast-forward
+54d3d108b5bc48736385a0d8434c4089b34ff3d2 61695ff51043d0ddbc241e783d4c66b8fd3c2b60 rmfranca <1221708@isep.ipp.pt> 1717379710 +0100	commit: Moved FileStorageException to exceptions package.Fixes to ReaderController (getReaderLendingsByIsbn)
+61695ff51043d0ddbc241e783d4c66b8fd3c2b60 0e6f5964f2a98f2b9b264c958f2e1d24545fd639 rmfranca <1221708@isep.ipp.pt> 1717379812 +0100	commit: US 23 done and tested.
+0e6f5964f2a98f2b9b264c958f2e1d24545fd639 1ed73dd4f978c44811d2d750020ad0154e855def rmfranca <1221708@isep.ipp.pt> 1717384594 +0100	commit: Integration tests on Author aggregate
+1ed73dd4f978c44811d2d750020ad0154e855def 211f42f9ecf2022d20b3ff3446227b752efdab61 rmfranca <1221708@isep.ipp.pt> 1717385036 +0100	commit: Crediting on previous commit
+211f42f9ecf2022d20b3ff3446227b752efdab61 2e31ac07ea858389e3c381aaf9812934664585e4 rmfranca <1221708@isep.ipp.pt> 1717411858 +0100	commit: Streamlined bootstrapping
+2e31ac07ea858389e3c381aaf9812934664585e4 4907eace355ab5032bc48d27f7086d47b9c5847d rmfranca <1221708@isep.ipp.pt> 1717428290 +0100	commit: Forbidden names repo, service, bootstrapping and usage in controllers.
+4907eace355ab5032bc48d27f7086d47b9c5847d e945fa8cb5511802e431dbb94e994ab101dfeb1e rmfranca <1221708@isep.ipp.pt> 1717430708 +0100	merge origin/main: Fast-forward
+e945fa8cb5511802e431dbb94e994ab101dfeb1e 620d39e0fe6be8f9b40f694de4c24347131b5976 rmfranca <1221708@isep.ipp.pt> 1717441893 +0100	merge origin/main: Fast-forward
+620d39e0fe6be8f9b40f694de4c24347131b5976 49e2df33d130c96c2970c159f303e0ff92ebbe8b rmfranca <1221708@isep.ipp.pt> 1717443426 +0100	commit: Fixes to be able to run
+49e2df33d130c96c2970c159f303e0ff92ebbe8b b363383b8b0dea592c7cda3b9b6ec2091c9b403b rmfranca <1221708@isep.ipp.pt> 1717451422 +0100	commit: GetBooksByAuthorNumber (US B4) implemented and tested on postman
+b363383b8b0dea592c7cda3b9b6ec2091c9b403b 32e4a767779c785c3f03cd8cb7447f8b2b669f78 rmfranca <1221708@isep.ipp.pt> 1717453171 +0100	commit: BookView now provides the author name as string
+32e4a767779c785c3f03cd8cb7447f8b2b669f78 ab265a3f73168e956f8f23dceebfbd7e435788c3 rmfranca <1221708@isep.ipp.pt> 1717456603 +0100	merge origin/main: Merge made by the 'ort' strategy.
+ab265a3f73168e956f8f23dceebfbd7e435788c3 ed42cda39f82184b4721f0f65552336435890728 rmfranca <1221708@isep.ipp.pt> 1717465498 +0100	commit: Bootstrapper (Lendings)
+ed42cda39f82184b4721f0f65552336435890728 ddb630b8ad75e8723a247515251178c6c312c30b rmfranca <1221708@isep.ipp.pt> 1717467776 +0100	commit: More and better Postman requests/tests
+ddb630b8ad75e8723a247515251178c6c312c30b 602aa8f80edc4f321dba3beb37c2df8fc52ca438 rmfranca <1221708@isep.ipp.pt> 1717468000 +0100	merge origin/main: Merge made by the 'ort' strategy.
+602aa8f80edc4f321dba3beb37c2df8fc52ca438 d2c3b018b1fed8ef2e9d34dfab4e50f996dd496a rmfranca <1221708@isep.ipp.pt> 1717506258 +0100	merge origin/main: Fast-forward
+d2c3b018b1fed8ef2e9d34dfab4e50f996dd496a 643d671abb5dbae30e15a0c315b0b44f1779b352 rmfranca <1221708@isep.ipp.pt> 1717518514 +0100	merge origin/main: Fast-forward
+643d671abb5dbae30e15a0c315b0b44f1779b352 6f242c14249914c6907f6d632c9164bddf028538 rmfranca <1221708@isep.ipp.pt> 1717518849 +0100	commit: get lendings now sends links. other minor fixes
+6f242c14249914c6907f6d632c9164bddf028538 cbd275ae88e85bdc59991e6a959335cc62482f09 rmfranca <1221708@isep.ipp.pt> 1717525493 +0100	commit: US14 documentation finished
+cbd275ae88e85bdc59991e6a959335cc62482f09 af999653602324b8eede523434bc7745de443b9b rmfranca <1221708@isep.ipp.pt> 1717525599 +0100	commit: Test classes adjusted to changes in domain classes (birthdate format, book photos)
+af999653602324b8eede523434bc7745de443b9b 5b0dcf60329a149a221b49bf3164507681252359 rmfranca <1221708@isep.ipp.pt> 1717534138 +0100	commit: Some code optimization on Lendings
+5b0dcf60329a149a221b49bf3164507681252359 7f4cf9b0b1941c5ee76e95618e394dd7885f529a rmfranca <1221708@isep.ipp.pt> 1717536089 +0100	commit: Work on Docs (US15, US18) and other small fixes
+7f4cf9b0b1941c5ee76e95618e394dd7885f529a 5b1ca90e3eeafe10c4581d72a444077f70edc51a rmfranca <1221708@isep.ipp.pt> 1717539531 +0100	merge origin/main: Fast-forward
+5b1ca90e3eeafe10c4581d72a444077f70edc51a f25010988ef4eff51df799e28ca19205850d3f58 rmfranca <1221708@isep.ipp.pt> 1717540773 +0100	merge origin/main: Fast-forward
+f25010988ef4eff51df799e28ca19205850d3f58 f98046a4b05a36aba881b2a0de3ac329956fe298 rmfranca <1221708@isep.ipp.pt> 1717546081 +0100	merge origin/main: Fast-forward
+f98046a4b05a36aba881b2a0de3ac329956fe298 42e8a04bfa7df0858d92b72f39d2e0af2ae57fb2 rmfranca <1221708@isep.ipp.pt> 1717552710 +0100	commit: Fixes to Author' photo. Tests run, but are now incomplete. getReaderLendingsByIsbn now takes boolean value for returned status
+42e8a04bfa7df0858d92b72f39d2e0af2ae57fb2 9aeb61c3ccb3f972a1667fd2e63324994571cea3 rmfranca <1221708@isep.ipp.pt> 1717552953 +0100	commit: findTopAuthorByLendings implemented. Some files missing from last commit.
+9aeb61c3ccb3f972a1667fd2e63324994571cea3 343fab9174972703915cc5d8ee909a26f4046372 rmfranca <1221708@isep.ipp.pt> 1717553980 +0100	merge origin/main: Fast-forward
+343fab9174972703915cc5d8ee909a26f4046372 f0fced1956dcd406fd282423ebde68253ad2a9ae rmfranca <1221708@isep.ipp.pt> 1717590138 +0100	commit: Book now sends links.
+f0fced1956dcd406fd282423ebde68253ad2a9ae f6cace11da8ee2d330d2f914f89e9997d7d734e1 rmfranca <1221708@isep.ipp.pt> 1717590280 +0100	merge origin/main: Merge made by the 'ort' strategy.
+f6cace11da8ee2d330d2f914f89e9997d7d734e1 9fe848c53bb352a9f1a2a87d5bec801a0088756c rmfranca <1221708@isep.ipp.pt> 1717596293 +0100	commit: Updated Postman collection
+9fe848c53bb352a9f1a2a87d5bec801a0088756c 249fe92cd973b1ec8421698ce8533e22958e9063 rmfranca <1221708@isep.ipp.pt> 1717598614 +0100	commit: Changed some repo methods from 'like' to 'contains'. Search readers by name now works
+249fe92cd973b1ec8421698ce8533e22958e9063 e7c30397a0fe7319615b9a234b0ccc93b1257230 rmfranca <1221708@isep.ipp.pt> 1717604795 +0100	commit: Fix to US6 - search authors by name
+e7c30397a0fe7319615b9a234b0ccc93b1257230 621f1668b0b1114c5b5597cad3cce4ac315e5059 rmfranca <1221708@isep.ipp.pt> 1717604807 +0100	merge origin/main: Merge made by the 'ort' strategy.
+621f1668b0b1114c5b5597cad3cce4ac315e5059 0b7906c19320f5e041069830309a36ad8ed863a0 rmfranca <1221708@isep.ipp.pt> 1717605811 +0100	commit: missing fixes to author tests
+0b7906c19320f5e041069830309a36ad8ed863a0 77843a868ae45e562cc6b95c2045421d4c7a33f2 rmfranca <1221708@isep.ipp.pt> 1717618112 +0100	commit: Minor fix to ReaderController ListResponse (404 when list is empty)
+77843a868ae45e562cc6b95c2045421d4c7a33f2 2ae7d5faac1e4c1366ebc13387bf6eb2ea143fec rmfranca <1221708@isep.ipp.pt> 1717620596 +0100	commit: Work on expanding Bootstrapper
+2ae7d5faac1e4c1366ebc13387bf6eb2ea143fec 1c0dc1ca1679343250c26d0353d39035540ecf30 rmfranca <1221708@isep.ipp.pt> 1717624659 +0100	commit: Work on expanding Bootstrapper
+1c0dc1ca1679343250c26d0353d39035540ecf30 52ce25531ea305c7bcda712067e16a1e779830fd rmfranca <1221708@isep.ipp.pt> 1717629081 +0100	merge origin/main: Fast-forward
+52ce25531ea305c7bcda712067e16a1e779830fd 7b5b2a5329406213522cc571b8f4a104f4025dfb rmfranca <1221708@isep.ipp.pt> 1717629338 +0100	commit: US 19 Implemented
+7b5b2a5329406213522cc571b8f4a104f4025dfb 9ede9f84230d284565cdaf2c30c963bcda9c0b77 rmfranca <1221708@isep.ipp.pt> 1717632902 +0100	commit: Moved Genre classes to their own package
+9ede9f84230d284565cdaf2c30c963bcda9c0b77 7f861665ede4d925d45cbdc61cecafca1803612d rmfranca <1221708@isep.ipp.pt> 1717639704 +0100	commit: Fixed MVC principle with GenreLendingsPerMonthDTO. Streamlined some code on Lendings
+7f861665ede4d925d45cbdc61cecafca1803612d 9df18ffc09043e12e23f92d1c3580865456a629b rmfranca <1221708@isep.ipp.pt> 1717640904 +0100	commit: Work on WP4B Docs
+9df18ffc09043e12e23f92d1c3580865456a629b c13b5cc8d2d0db546067ee4011279833f1beadef rmfranca <1221708@isep.ipp.pt> 1717682017 +0100	commit: Added deletes to repos, trying to make work LendingRepositoryIntegrationTest
+c13b5cc8d2d0db546067ee4011279833f1beadef 664e9ec4e7ec4b9dbb6e55c3d97d48f1df55398f rmfranca <1221708@isep.ipp.pt> 1717682577 +0100	commit: Fixed /coauthors endpoint config
+664e9ec4e7ec4b9dbb6e55c3d97d48f1df55398f ca993eddec23f03e99601b6f0c6e340957e0a78a rmfranca <1221708@isep.ipp.pt> 1717687437 +0100	commit: Fix on bootstrapper
+ca993eddec23f03e99601b6f0c6e340957e0a78a 3c952d4e4999952ba7a49059cc2cfcc372574cb3 rmfranca <1221708@isep.ipp.pt> 1717699968 +0100	commit: LendingRepositoryIntegrationTest finished, with necessary fixes in other places
+3c952d4e4999952ba7a49059cc2cfcc372574cb3 f8fbd2a9671b10b73802061fb454848e587fbf1d rmfranca <1221708@isep.ipp.pt> 1717702495 +0100	commit: LendingServiceImplIntegrationTest
+f8fbd2a9671b10b73802061fb454848e587fbf1d 85dfd7676bfd3f33c5f4f748821508418cb2b552 rmfranca <1221708@isep.ipp.pt> 1717704767 +0100	commit: US 15 - Fixed controller getAverageLendingsDuration, fixed repo test method
+85dfd7676bfd3f33c5f4f748821508418cb2b552 a50615085fb45eae6e859f73bebf140710b86f02 rmfranca <1221708@isep.ipp.pt> 1717720284 +0100	commit: US14 Reworked
+a50615085fb45eae6e859f73bebf140710b86f02 7c3300a26c4c0d0062f74beaa8ea03b312db429f rmfranca <1221708@isep.ipp.pt> 1717730751 +0100	commit: Photo code reworked. All creates work. PhotoRepository not needed with Cascade set to All
+7c3300a26c4c0d0062f74beaa8ea03b312db429f 3e44f8ff35633f660f4beeebbb7077bd2dee2347 rmfranca <1221708@isep.ipp.pt> 1717771058 +0100	merge origin/main: Fast-forward
+3e44f8ff35633f660f4beeebbb7077bd2dee2347 4e2c7d649b6975fe272b0b678626f95dae5e55f1 rmfranca <1221708@isep.ipp.pt> 1717771851 +0100	commit: WP4B docs
+4e2c7d649b6975fe272b0b678626f95dae5e55f1 6fd68f50c86ef501367c2825b8a2f8c0b63dceb8 rmfranca <1221708@isep.ipp.pt> 1717780639 +0100	merge origin/main: Fast-forward
+6fd68f50c86ef501367c2825b8a2f8c0b63dceb8 cb50f9587d8bbb4285cbf6f236dfe4550c814aa5 rmfranca <1221708@isep.ipp.pt> 1717782077 +0100	commit: WorkPlanning.md to make sure nothing is forgotten
+cb50f9587d8bbb4285cbf6f236dfe4550c814aa5 e95c91bb4e200ad17bfb461f65921152780bdf09 rmfranca <1221708@isep.ipp.pt> 1717820752 +0100	commit: US19 implemented and tested on Postman. View classes need to have Number subclasses (Long, Integer..)
+e95c91bb4e200ad17bfb461f65921152780bdf09 3a1500551444da67ea9d1d57c90c75a96330161c rmfranca <1221708@isep.ipp.pt> 1717821032 +0100	commit: Minor fixed that had been overlooked.
+3a1500551444da67ea9d1d57c90c75a96330161c 3e56aafaaa0aeefcd35d0c7f2d114cf340b4cf04 rmfranca <1221708@isep.ipp.pt> 1717862002 +0100	merge origin/main: Fast-forward
+3e56aafaaa0aeefcd35d0c7f2d114cf340b4cf04 89bf981d28a806fb302ef1257e8f3c08e5f2e321 rmfranca <1221708@isep.ipp.pt> 1717865859 +0100	merge origin/main: Fast-forward
+89bf981d28a806fb302ef1257e8f3c08e5f2e321 567108f0d935209dbc3dcbb1ab29ce966c910b6d rmfranca <1221708@isep.ipp.pt> 1717872256 +0100	merge origin/main: Fast-forward
+567108f0d935209dbc3dcbb1ab29ce966c910b6d 24f742d908e6fa53ce7f6e49e82ce2047d35f568 rmfranca <1221708@isep.ipp.pt> 1717881343 +0100	merge origin/main: Fast-forward
+24f742d908e6fa53ce7f6e49e82ce2047d35f568 c1732b96f892785448ea4fb1b301598cb4765c42 rmfranca <1221708@isep.ipp.pt> 1717891900 +0100	merge origin/main: Fast-forward
+c1732b96f892785448ea4fb1b301598cb4765c42 2500bb1eb7b225ce4b20491e8adfe45cc951b35b rmfranca <1221708@isep.ipp.pt> 1717892469 +0100	commit: US30 implemented and tested. US5 almost done (coauthor book link missing). Work on US19 docs
+2500bb1eb7b225ce4b20491e8adfe45cc951b35b b54ca6949b0d104154d425c70c0cafe0aa661bbb rmfranca <1221708@isep.ipp.pt> 1717894963 +0100	commit: Changed averages return type to Double, with 1 decimal
+b54ca6949b0d104154d425c70c0cafe0aa661bbb 1c00662904cd5753addd484b2872e42ea3bdedae rmfranca <1221708@isep.ipp.pt> 1717899818 +0100	commit: Search Readers implemented (US 28/29). H2 database now ignores lettercase.
+1c00662904cd5753addd484b2872e42ea3bdedae 5a5e7241de60146e92c1dace28523f6fe7a7729d rmfranca <1221708@isep.ipp.pt> 1717947904 +0100	merge origin/main: Fast-forward
+5a5e7241de60146e92c1dace28523f6fe7a7729d ced183b4e1c538129e3e51f41fa4a00c7abf1040 rmfranca <1221708@isep.ipp.pt> 1717948407 +0100	merge origin/main: Fast-forward
+ced183b4e1c538129e3e51f41fa4a00c7abf1040 ffb5aa7ae942d46b43e44efb993b5f09e7fb5018 rmfranca <1221708@isep.ipp.pt> 1717955923 +0100	merge origin/main: Fast-forward
+ffb5aa7ae942d46b43e44efb993b5f09e7fb5018 ffb5aa7ae942d46b43e44efb993b5f09e7fb5018 rmfranca <1221708@isep.ipp.pt> 1717961553 +0100	reset: moving to HEAD
+ffb5aa7ae942d46b43e44efb993b5f09e7fb5018 859f1570eff51e6967ea7f599eaf465935539837 rmfranca <1221708@isep.ipp.pt> 1717974823 +0100	commit: Get/Create/Update Lending returns links formatted to HAL standards
+859f1570eff51e6967ea7f599eaf465935539837 80a076bdadb37b73f7e0b8c92bf367c6e569cc40 rmfranca <1221708@isep.ipp.pt> 1717980660 +0100	commit: Fixes while making Ph1-Lendings Postman collection
+80a076bdadb37b73f7e0b8c92bf367c6e569cc40 64eff7a9ab023a7a1dc0b4888c5a8fc7222e093a rmfranca <1221708@isep.ipp.pt> 1717988012 +0100	commit: Coauthor's book's link now shows.
+64eff7a9ab023a7a1dc0b4888c5a8fc7222e093a 180b846f7e1de8a9f4de1cef4348f8b8391945cd rmfranca <1221708@isep.ipp.pt> 1718020735 +0100	commit: Implemented searchBooks
+180b846f7e1de8a9f4de1cef4348f8b8391945cd 314dd04122eeea70d8e824d6f05ecc35ff91a870 rmfranca <1221708@isep.ipp.pt> 1718030442 +0100	merge origin/main: Fast-forward
+314dd04122eeea70d8e824d6f05ecc35ff91a870 be64668b26f8906b69026b4e2765e78431d238e0 rmfranca <1221708@isep.ipp.pt> 1718031502 +0100	commit: Updated GlobalArtifacts to include Photo entity
+be64668b26f8906b69026b4e2765e78431d238e0 0d4925c3ab5225c03b0fc35efbb0ef5a67ce15b4 rmfranca <1221708@isep.ipp.pt> 1718031576 +0100	commit (merge): Merge remote-tracking branch 'origin/main'
+0d4925c3ab5225c03b0fc35efbb0ef5a67ce15b4 8f3aeb83f83653ec7abab7bb6430121c68a61bac rmfranca <1221708@isep.ipp.pt> 1718036391 +0100	commit: US 26 - Reader Quote implemented and tested
+8f3aeb83f83653ec7abab7bb6430121c68a61bac de597c2dafe439cbe39f5991bdb2370d02441f1f rmfranca <1221708@isep.ipp.pt> 1718038000 +0100	commit: Moved IF_MATCH string to ConcurrencyService. Updated Work Planning. Added credit to WebClient classes
+de597c2dafe439cbe39f5991bdb2370d02441f1f 60ae1689e1fff8ea54d023c4ca60a90471896287 rmfranca <1221708@isep.ipp.pt> 1718038039 +0100	commit (merge): Merge remote-tracking branch 'origin/main'
+60ae1689e1fff8ea54d023c4ca60a90471896287 499810b27d8370aeade25fcc5df0a82c69198ca0 rmfranca <1221708@isep.ipp.pt> 1718039509 +0100	merge origin/main: Fast-forward
+499810b27d8370aeade25fcc5df0a82c69198ca0 67edd58fbcc0e6e60d9cb62e095a5719264cfbe1 rmfranca <1221708@isep.ipp.pt> 1718040336 +0100	merge origin/main: Fast-forward
+67edd58fbcc0e6e60d9cb62e095a5719264cfbe1 ae5e8dbbf8c0c85346f0f4e59a5b27594b751c07 rmfranca <1221708@isep.ipp.pt> 1718042401 +0100	merge origin/main: Fast-forward
+ae5e8dbbf8c0c85346f0f4e59a5b27594b751c07 8071e8680ad696157a165f6ba98123a1c1154536 rmfranca <1221708@isep.ipp.pt> 1718043682 +0100	commit: US 26 - Funny Quote documentation. Minor fix on Readers CD
+8071e8680ad696157a165f6ba98123a1c1154536 7ecb4d76cea8e30e2362d3f667cbd97cf05d06fa rmfranca <1221708@isep.ipp.pt> 1718043694 +0100	merge origin/main: Merge made by the 'ort' strategy.
+7ecb4d76cea8e30e2362d3f667cbd97cf05d06fa 357c5a5a3664cd9f623b88a8575052a4b31df78f rmfranca <1221708@isep.ipp.pt> 1718044980 +0100	merge origin/main: Fast-forward
+357c5a5a3664cd9f623b88a8575052a4b31df78f 3db22b7041842b3df28fd73e90661052505fcfd5 rmfranca <1221708@isep.ipp.pt> 1718048371 +0100	commit: US15, US 16 & US23 Docs finished
+3db22b7041842b3df28fd73e90661052505fcfd5 3379c8764f0cf34f38849818725cac21b49917c3 rmfranca <1221708@isep.ipp.pt> 1718048383 +0100	merge origin/main: Merge made by the 'ort' strategy.
+3379c8764f0cf34f38849818725cac21b49917c3 fedf028f54e5f41c1bf6d6a300184e525f34cfd6 rmfranca <1221708@isep.ipp.pt> 1718049802 +0100	merge origin/main: Fast-forward
+fedf028f54e5f41c1bf6d6a300184e525f34cfd6 ddb1a53ed170ca428c2b84c85da03902bf38fc9f rmfranca <1221708@isep.ipp.pt> 1718056270 +0100	commit: SearchLending implemented, but it's not right for US 18
+ddb1a53ed170ca428c2b84c85da03902bf38fc9f 5a9bcd3abb05312ab706fe97f8ce9c94fc55c991 rmfranca <1221708@isep.ipp.pt> 1718056282 +0100	merge origin/main: Merge made by the 'ort' strategy.
+5a9bcd3abb05312ab706fe97f8ce9c94fc55c991 79eb7e42099714e7cfaec02b00d130f29376b30f rmfranca <1221708@isep.ipp.pt> 1718056851 +0100	commit: -docs us 18
+79eb7e42099714e7cfaec02b00d130f29376b30f 5d77285232576d371cafae4548d8feed93bcf7a5 rmfranca <1221708@isep.ipp.pt> 1718057056 +0100	merge origin/main: Fast-forward
+5d77285232576d371cafae4548d8feed93bcf7a5 d03d686df0359b1798dd1f6f54cee4e7e4cd90b9 rmfranca <1221708@isep.ipp.pt> 1718057186 +0100	commit: files created for bonus us
+d03d686df0359b1798dd1f6f54cee4e7e4cd90b9 1b579709352116f8b564288288a4df038723a52b rmfranca <1221708@isep.ipp.pt> 1718060107 +0100	merge origin/main: Fast-forward
+1b579709352116f8b564288288a4df038723a52b 9c28306028f87e3cb41f4b0def9ee527089d4c41 rmfranca <1221708@isep.ipp.pt> 1718060217 +0100	merge origin/main: Fast-forward
+9c28306028f87e3cb41f4b0def9ee527089d4c41 c716e065eb70038a9b8001aaab59922a677f0ac3 rmfranca <1221708@isep.ipp.pt> 1718060293 +0100	merge origin/main: Fast-forward
