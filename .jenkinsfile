@@ -1,27 +1,25 @@
-node {
-    
+pipeline {
+    agent any
 
-    
+    triggers {
+        githubPush()
+    }
 
     stages {
-         stage('Checkout') {
-            steps {
-                checkout scm
+
+    stage('Hello'){
+        steps {
+            echo "I'm running the pipeline as defined in the pipeline file."
             }
         }
+    }
 
-        stage('Build') {
-            steps {
-                sh 'mvn clean package'
-            }
+    post {
+        success {
+            echo 'Pipeline completed successfully!'
         }
-
-        stage('Static Code Analysis') {
-            steps {
-                sh 'mvn sonar:sonar'
-            }
+        failure {
+            echo 'Pipeline failed!'
         }
-
-
-        
+    }
 }
