@@ -1,9 +1,7 @@
-pipeline {
-    agent any
+node {
+    
 
-    triggers {
-    githubPush()
-    }
+    
 
     stages {
          stage('Checkout') {
