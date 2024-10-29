@@ -1,1 +1,30 @@
+pipeline {
+    agent any
 
+    triggers {
+    githubPush()
+    }
+
+    stages {
+         stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+
+        stage('Static Code Analysis') {
+            steps {
+                sh 'mvn sonar:sonar'
+            }
+        }
+
+
+    }
+        
+}
