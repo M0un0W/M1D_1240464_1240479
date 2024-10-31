@@ -7,48 +7,91 @@ import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.*;
 
 class LendingNumberTest {
+
     @Test
-    void ensureLendingNumberNotNull(){
-        assertThrows(IllegalArgumentException.class, () -> new LendingNumber(null));
+    void ensureLendingNumberNotNull() {
+        // Arrange
+        String lendingNumber = null;
+        
+        // Act & Assert
+        assertThrows(IllegalArgumentException.class, () -> new LendingNumber(lendingNumber));
     }
+
     @Test
-    void ensureLendingNumberNotBlank(){
-        assertThrows(IllegalArgumentException.class, () -> new LendingNumber(""));
+    void ensureLendingNumberNotBlank() {
+        // Arrange
+        String lendingNumber = "";
+        
+        // Act & Assert
+        assertThrows(IllegalArgumentException.class, () -> new LendingNumber(lendingNumber));
     }
+
     @Test
-    void ensureLendingNumberNotWrongFormat(){
-        assertThrows(IllegalArgumentException.class, () -> new LendingNumber("1/2024"));
-        assertThrows(IllegalArgumentException.class, () -> new LendingNumber("24/1"));
-        assertThrows(IllegalArgumentException.class, () -> new LendingNumber("2024-1"));
-        assertThrows(IllegalArgumentException.class, () -> new LendingNumber("2024\\1"));
+    void ensureLendingNumberNotWrongFormat() {
+        // Arrange
+        String[] invalidFormats = {"1/2024", "24/1", "2024-1", "2024\\1"};
+        
+        for (String format : invalidFormats) {
+            // Act & Assert
+            assertThrows(IllegalArgumentException.class, () -> new LendingNumber(format));
+        }
     }
+
     @Test
     void ensureLendingNumberIsSetWithString() {
-        final var ln = new LendingNumber("2024/1");
-        assertEquals("2024/1", ln.toString());
+        // Arrange
+        String validLendingNumber = "2024/1";
+        
+        // Act
+        LendingNumber ln = new LendingNumber(validLendingNumber);
+        
+        // Assert
+        assertEquals(validLendingNumber, ln.toString());
     }
 
     @Test
     void ensureLendingNumberIsSetWithSequential() {
-        final LendingNumber ln = new LendingNumber(1);
+        // Arrange
+        int sequential = 1;
+        
+        // Act
+        LendingNumber ln = new LendingNumber(sequential);
+        
+        // Assert
         assertNotNull(ln);
-        assertEquals(LocalDate.now().getYear() + "/1", ln.toString());
+        assertEquals(LocalDate.now().getYear() + "/" + sequential, ln.toString());
     }
 
     @Test
     void ensureLendingNumberIsSetWithYearAndSequential() {
-        final LendingNumber ln = new LendingNumber(2024,1);
+        // Arrange
+        int year = 2024;
+        int sequential = 1;
+        
+        // Act
+        LendingNumber ln = new LendingNumber(year, sequential);
+        
+        // Assert
         assertNotNull(ln);
     }
 
     @Test
     void ensureSequentialCannotBeNegative() {
-        assertThrows(IllegalArgumentException.class, () -> new LendingNumber(2024,-1));
+        // Arrange
+        int year = 2024;
+        int sequential = -1;
+        
+        // Act & Assert
+        assertThrows(IllegalArgumentException.class, () -> new LendingNumber(year, sequential));
     }
 
     @Test
     void ensureYearCannotBeInTheFuture() {
-        assertThrows(IllegalArgumentException.class, () -> new LendingNumber(LocalDate.now().getYear()+1,1));
+        // Arrange
+        int year = LocalDate.now().getYear() + 1;
+        int sequential = 1;
+        
+        // Act & Assert
+        assertThrows(IllegalArgumentException.class, () -> new LendingNumber(year, sequential));
     }
-
 }

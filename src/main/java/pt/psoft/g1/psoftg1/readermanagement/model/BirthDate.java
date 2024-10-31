@@ -1,6 +1,5 @@
 package pt.psoft.g1.psoftg1.readermanagement.model;
 
-
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +8,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.security.access.AccessDeniedException;
 
 import java.time.LocalDate;
-
+import java.time.Period;
 
 @Embeddable
 @NoArgsConstructor
@@ -24,8 +23,8 @@ public class BirthDate {
     private final String dateFormatRegexPattern = "\\d{4}-\\d{2}-\\d{2}";
 
     @Transient
-    @Value("${minimumReaderAge}")
-    private int minimumAge;
+    @Value("${minimumReaderAge:18}")
+    private int minimumAge = 18; // Provide a default value
 
     public BirthDate(int year, int month, int day) {
         setBirthDate(year, month, day);
@@ -46,15 +45,25 @@ public class BirthDate {
     }
 
     private void setBirthDate(int year, int month, int day) {
-        LocalDate minimumAgeDate = LocalDate.now().minusYears(minimumAge);
         LocalDate userDate = LocalDate.of(year, month, day);
-        if(userDate.isAfter(minimumAgeDate)) {
-            throw new AccessDeniedException("User must be, at least, " + minimumAge + "years old");
+        LocalDate minimumAgeDate = LocalDate.now().minusYears(minimumAge);
+        
+        // Explicit age calculation
+        int age = Period.between(userDate, LocalDate.now()).getYears();
+        
+        // Debug print statements
+        System.out.println("User's birth date: " + userDate);
+        System.out.println("Minimum age date: " + minimumAgeDate);
+        System.out.println("Calculated age: " + age);
+        System.out.println("Minimum age: " + minimumAge);
+        
+        // Throw exception if user is younger than minimum age
+        if (userDate.isAfter(minimumAgeDate)) {
+            throw new AccessDeniedException("User must be, at least, 18years old");
         }
-
+    
         this.birthDate = userDate;
     }
-
     public String toString() {
         return String.format("%d-%d-%d", this.birthDate.getYear(), this.birthDate.getMonthValue(), this.birthDate.getDayOfMonth());
     }
