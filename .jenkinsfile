@@ -16,9 +16,11 @@ pipeline {
         stage('Clean') {
             steps {
                 echo 'Cleaning the workspace...'
-                sh './mvnw clean'  // Cleans the build artifacts
+                sh 'chmod +x ./mvnw'   // Add this line to set executable permissions
+                sh './mvnw clean'      // Now this command should work without permission issues
             }
         }
+
 
         stage('Unit Tests') {
             steps {
