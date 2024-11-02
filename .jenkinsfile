@@ -61,12 +61,12 @@ pipeline {
             }
         }
 
-        stage('Smoke Tests') {
-            steps {
-                echo 'Running smoke tests...'
-                // Add smoke test steps here
-            }
-        }
+        // stage('Smoke Tests') {
+        //     steps {
+        //         echo 'Running smoke tests...'
+        //         // Add smoke test steps here
+        //     }
+        // }
     }
 
     post {
