@@ -16,18 +16,33 @@ pipeline {
         stage('Clean') {
             steps {
                 echo 'Cleaning the workspace...'
-                sh 'chmod +x ./mvnw'   // Add this line to set executable permissions
-                sh './mvnw clean'      // Now this command should work without permission issues
+                script {
+                    // Set executable permissions for Linux/Mac systems
+                    if (isUnix()) {
+                        sh 'chmod +x ./mvnw'   // Set executable permissions
+                    } else {
+                        echo 'Skipping permission change on Windows'
+                    }
+                }
+                // Execute the clean command
+                if (isUnix()) {
+                    sh './mvnw clean'
+                } else {
+                    bat 'mvnw clean' // Use 'bat' for Windows
+                }
             }
         }
-
 
         stage('Unit Tests') {
             steps {
                 echo 'Running unit tests...'
                 script {
                     try {
-                        sh './mvnw test'  // Run unit tests with Maven
+                        if (isUnix()) {
+                            sh './mvnw test'  // Run unit tests with Maven on Unix
+                        } else {
+                            bat 'mvnw test' // Run unit tests on Windows
+                        }
                         currentBuild.result = 'SUCCESS'
                     } catch (Exception e) {
                         currentBuild.result = 'UNSTABLE'
@@ -40,7 +55,11 @@ pipeline {
         stage('Mutation Tests') {
             steps {
                 echo 'Running mutation tests...'
-                sh './mvnw org.pitest:pitest-maven:mutationCoverage'  // Runs mutation tests if Pitest is set up
+                if (isUnix()) {
+                    sh './mvnw org.pitest:pitest-maven:mutationCoverage'
+                } else {
+                    bat 'mvnw org.pitest:pitest-maven:mutationCoverage'
+                }
             }
         }
 
@@ -50,14 +69,18 @@ pipeline {
             }
             steps {
                 echo 'Running integration tests due to unit test failure...'
-                sh './mvnw verify'  // Runs integration tests using the Failsafe plugin
+                if (isUnix()) {
+                    sh './mvnw verify'  // Runs integration tests using the Failsafe plugin
+                } else {
+                    bat 'mvnw verify' // Use 'bat' for Windows
+                }
             }
         }
 
         stage('Deploy') {
             steps {
                 echo 'Deploying the application...'
-                // Add deployment steps here
+                // Add deployment steps here, consider using platform-specific commands if needed
             }
         }
 
