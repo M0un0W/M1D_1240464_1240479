@@ -5,10 +5,6 @@ pipeline {
         githubPush()
     }
 
-    environment {
-        MAVEN_CMD = './mvnw'
-    }
-
     stages {
         stage('Check Out') {
             steps {
@@ -20,17 +16,18 @@ pipeline {
         stage('Clean') {
             steps {
                 echo 'Cleaning the workspace...'
-                sh 'chmod +x ${MAVEN_CMD}'   // Set executable permissions
-                sh '${MAVEN_CMD} clean'      // Clean the project
+                sh 'chmod +x ./mvnw'   // Add this line to set executable permissions
+                sh './mvnw clean'      // Now this command should work without permission issues
             }
         }
+
 
         stage('Unit Tests') {
             steps {
                 echo 'Running unit tests...'
                 script {
                     try {
-                        sh '${MAVEN_CMD} test'  // Run unit tests with Maven
+                        sh './mvnw test'  // Run unit tests with Maven
                         currentBuild.result = 'SUCCESS'
                     } catch (Exception e) {
                         currentBuild.result = 'UNSTABLE'
@@ -43,26 +40,33 @@ pipeline {
         stage('Mutation Tests') {
             steps {
                 echo 'Running mutation tests...'
-                sh '${MAVEN_CMD} org.pitest:pitest-maven:mutationCoverage'  // Run mutation tests
+                sh './mvnw org.pitest:pitest-maven:mutationCoverage'  // Runs mutation tests if Pitest is set up
             }
         }
 
         stage('Integration Tests') {
             when {
-                expression { currentBuild.result == 'UNSTABLE' }  // Runs only if Unit Tests are UNSTABLE
+                expression { currentBuild.result == 'UNSTABLE' }  // Runs only if Unit Tests failed
             }
             steps {
                 echo 'Running integration tests due to unit test failure...'
-                sh '${MAVEN_CMD} verify'  // Runs integration tests using the Failsafe plugin
+                sh './mvnw verify'  // Runs integration tests using the Failsafe plugin
             }
         }
 
         stage('Deploy') {
             steps {
                 echo 'Deploying the application...'
-                // Add deployment steps here, like SSH or Kubernetes commands
+                // Add deployment steps here
             }
         }
+
+        // stage('Smoke Tests') {
+        //     steps {
+        //         echo 'Running smoke tests...'
+        //         // Add smoke test steps here
+        //     }
+        // }
     }
 
     post {
