@@ -30,7 +30,7 @@ import pt.psoft.g1.psoftg1.usermanagement.repositories.UserRepository;
 
 @Transactional
 @SpringBootTest
-public class LendingRepositoryIT {
+public class LendingRepositoryIntegrationTest {
 
     @Autowired
     private LendingRepository lendingRepository;

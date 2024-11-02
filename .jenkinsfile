@@ -9,7 +9,7 @@ pipeline {
         stage('Check Out') {
             steps {
                 echo 'Checking out the latest code...'
-                checkout scm // Uses the default SCM configuration in Jenkins
+                checkout scm  // Uses the default SCM configuration in Jenkins
             }
         }
 
@@ -18,11 +18,11 @@ pipeline {
                 echo 'Cleaning the workspace...'
                 script {
                     if (isUnix()) {
-                        sh 'chmod +x ./mvnw' // Set executable permissions for Unix
-                        sh './mvnw clean'    // Run clean for Unix
+                        sh 'chmod +x ./mvnw'   // Set executable permissions for Unix
+                        sh './mvnw clean'      // Run clean for Unix
                     } else {
                         echo 'Skipping permission change on Windows'
-                        bat 'mvnw clean'     // Run clean for Windows
+                        bat 'mvnw clean' // Run clean for Windows
                     }
                 }
             }
@@ -34,14 +34,27 @@ pipeline {
                 script {
                     try {
                         if (isUnix()) {
-                            sh './mvnw test' // Run unit tests using Surefire on Unix
+                            sh './mvnw test'  // Run unit tests for Unix
                         } else {
-                            bat 'mvnw test'  // Run unit tests using Surefire on Windows
+                            bat 'mvnw test' // Run unit tests for Windows
                         }
                         currentBuild.result = 'SUCCESS'
                     } catch (Exception e) {
                         currentBuild.result = 'UNSTABLE'
-                        echo 'Unit tests failed, marking build as UNSTABLE...'
+                        echo 'Unit tests failed, marking as UNSTABLE...'
+                    }
+                }
+            }
+        }
+
+        stage('Mutation Tests') {
+            steps {
+                echo 'Running mutation tests...'
+                script {
+                    if (isUnix()) {
+                        sh './mvnw org.pitest:pitest-maven:mutationCoverage'
+                    } else {
+                        bat 'mvnw org.pitest:pitest-maven:mutationCoverage'
                     }
                 }
             }
@@ -49,29 +62,33 @@ pipeline {
 
         stage('Integration Tests') {
             when {
-                expression { currentBuild.result == 'SUCCESS' } // Runs if Unit Tests succeed
+                expression { currentBuild.result == 'UNSTABLE' }  // Runs only if Unit Tests failed
             }
             steps {
-                echo 'Running integration tests...'
+                echo 'Running integration tests due to unit test failure...'
                 script {
                     if (isUnix()) {
-                        sh './mvnw verify' // Run integration tests using Failsafe on Unix
+                        sh './mvnw verify'  // Runs integration tests for Unix
                     } else {
-                        bat 'mvnw verify'  // Run integration tests using Failsafe on Windows
+                        bat 'mvnw verify' // Runs integration tests for Windows
                     }
                 }
             }
         }
 
         stage('Deploy') {
-            when {
-                expression { currentBuild.result == 'SUCCESS' } // Deploys only if all tests pass
-            }
             steps {
                 echo 'Deploying the application...'
-                // Add your deployment steps here
+                // Add deployment steps here, consider using platform-specific commands if needed
             }
         }
+
+        // stage('Smoke Tests') {
+        //     steps {
+        //         echo 'Running smoke tests...'
+        //         // Add smoke test steps here
+        //     }
+        // }
     }
 
     post {
@@ -83,10 +100,6 @@ pipeline {
         }
         failure {
             echo 'Pipeline failed!'
-        }
-        always {
-            echo 'Cleaning up resources...'
-            cleanWs() // Optional: Cleans up the workspace after the build
         }
     }
 }

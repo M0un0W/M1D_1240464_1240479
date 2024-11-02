@@ -23,7 +23,7 @@ import pt.psoft.g1.psoftg1.authormanagement.repositories.AuthorRepository;
  */
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-public class AuthorServiceImplIT {
+public class AuthorServiceImplIntegrationTest {
     @Autowired
     private AuthorService authorService;
     @MockBean

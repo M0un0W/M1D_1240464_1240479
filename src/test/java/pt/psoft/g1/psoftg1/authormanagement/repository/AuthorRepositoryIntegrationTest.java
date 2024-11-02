@@ -19,7 +19,7 @@ import pt.psoft.g1.psoftg1.authormanagement.repositories.AuthorRepository;
  */
 @ExtendWith(SpringExtension.class)
 @DataJpaTest
-public class AuthorRepositoryIT {
+public class AuthorRepositoryIntegrationTest {
     @Autowired
     private TestEntityManager entityManager;
     @Autowired
