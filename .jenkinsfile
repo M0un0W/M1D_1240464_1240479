@@ -9,7 +9,7 @@ pipeline {
         stage('Check Out') {
             steps {
                 echo 'Checking out the latest code...'
-                checkout scm  // Uses the default SCM configuration in Jenkins
+                checkout scm
             }
         }
 
@@ -18,11 +18,11 @@ pipeline {
                 echo 'Cleaning the workspace...'
                 script {
                     if (isUnix()) {
-                        sh 'chmod +x ./mvnw'   // Set executable permissions for Unix
-                        sh './mvnw clean'      // Run clean for Unix
+                        sh 'chmod +x ./mvnw'
+                        sh './mvnw clean'
                     } else {
                         echo 'Skipping permission change on Windows'
-                        bat 'mvnw clean' // Run clean for Windows
+                        bat 'mvnw clean'
                     }
                 }
             }
@@ -34,9 +34,9 @@ pipeline {
                 script {
                     try {
                         if (isUnix()) {
-                            sh './mvnw test'  // Run unit tests for Unix
+                            sh './mvnw test'
                         } else {
-                            bat 'mvnw test' // Run unit tests for Windows
+                            bat 'mvnw test'
                         }
                         currentBuild.result = 'SUCCESS'
                     } catch (Exception e) {
@@ -62,15 +62,15 @@ pipeline {
 
         stage('Integration Tests') {
             when {
-                expression { currentBuild.result == 'UNSTABLE' }  // Runs only if Unit Tests failed
+                expression { currentBuild.result == 'UNSTABLE' }
             }
             steps {
                 echo 'Running integration tests due to unit test failure...'
                 script {
                     if (isUnix()) {
-                        sh './mvnw verify'  // Runs integration tests for Unix
+                        sh './mvnw verify'
                     } else {
-                        bat 'mvnw verify' // Runs integration tests for Windows
+                        bat 'mvnw verify'
                     }
                 }
             }
@@ -79,14 +79,15 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying the application...'
-                // Add deployment steps here, consider using platform-specific commands if needed
+                // cant do the deploy
             }
         }
 
+        // professor talked about this part for the pipeline
         // stage('Smoke Tests') {
         //     steps {
         //         echo 'Running smoke tests...'
-        //         // Add smoke test steps here
+        //
         //     }
         // }
     }
