@@ -1,6 +1,5 @@
 package pt.psoft.g1.psoftg1.lendingmanagement.model;
 
-import java.security.SecureRandom;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
@@ -49,8 +48,6 @@ public class Lending {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long pk;
 
-    private String lendingId; // 20-character alphanumeric ID for lending
-
     private LendingNumber lendingNumber;
 
     @NotNull
@@ -98,23 +95,6 @@ public class Lending {
     private static final int DEFAULT_JUVENILE_AGE_LIMIT = 18;
     private static final int MAX_DAYS_PER_LENDING = 14;
 
-    // SecureRandom for ID generation
-    private static final SecureRandom random = new SecureRandom();
-    private static final String ALPHANUMERIC = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-
-    /**
-     * Generates a 20-character alphanumeric ID.
-     *
-     * @return a randomly generated alphanumeric ID
-     */
-    private String generateLendingId() {
-        StringBuilder idBuilder = new StringBuilder(20);
-        for (int i = 0; i < 20; i++) {
-            idBuilder.append(ALPHANUMERIC.charAt(random.nextInt(ALPHANUMERIC.length())));
-        }
-        return idBuilder.toString();
-    }
-
     /**
      * Constructs a new {@code Lending} object to be persisted in the database.
      * Sets {@code startDate} as the current date, and {@code limitDate} as the current date plus the
@@ -134,14 +114,11 @@ public class Lending {
         this.limitDate = LocalDate.now().plusDays(lendingDuration);
         this.returnedDate = null;
         this.fineValuePerDayInCents = fineValuePerDayInCents;
-        this.lendingId = generateLendingId(); // Generate the lending ID
 
         validateReaderAge();
         setDaysUntilReturn();
         setDaysOverdue();
     }
-
-    // Remaining methods stay the same
 
     private void validateReaderAge() {
         BirthDate birthDate = readerDetails.getBirthDate();
@@ -224,10 +201,6 @@ public class Lending {
         return this.lendingNumber.toString();
     }
 
-    public String getLendingId() {
-        return lendingId; // Getter for lendingId
-    }
-
     protected Lending() {}
 
     public static Lending newBootstrappingLending(Book book, ReaderDetails readerDetails, int year, int seq, LocalDate startDate, LocalDate returnedDate, int lendingDuration, int fineValuePerDayInCents) {
@@ -239,7 +212,6 @@ public class Lending {
         lending.limitDate = startDate.plusDays(lendingDuration);
         lending.fineValuePerDayInCents = fineValuePerDayInCents;
         lending.returnedDate = returnedDate;
-        lending.lendingId = lending.generateLendingId(); // Ensure to generate ID on bootstrapping as well
         return lending;
     }
 }
