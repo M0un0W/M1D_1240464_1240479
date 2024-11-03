@@ -48,6 +48,10 @@ public class Author extends EntityWithPhoto {
         return authorNumber;
     }
 
+    public Long getAuthorId() {
+        return getId(); // Added method
+    }
+
     public Author(String name, String bio, String photoURI) {
         setName(name);
         setBio(bio);
@@ -57,7 +61,6 @@ public class Author extends EntityWithPhoto {
     protected Author() {
         // got ORM only
     }
-
 
     public void applyPatch(final long desiredVersion, final UpdateAuthorRequest request) {
         if (this.version != desiredVersion)
@@ -77,6 +80,7 @@ public class Author extends EntityWithPhoto {
 
         setPhotoInternal(null);
     }
+    
     public String getName() {
         return this.name.toString();
     }

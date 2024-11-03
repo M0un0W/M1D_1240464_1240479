@@ -1,18 +1,19 @@
 package pt.psoft.g1.psoftg1.authormanagement.api;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import org.mapstruct.IterableMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Named;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
 import pt.psoft.g1.psoftg1.authormanagement.model.Author;
 import pt.psoft.g1.psoftg1.bookmanagement.api.BookShortView;
 import pt.psoft.g1.psoftg1.bookmanagement.model.Book;
 import pt.psoft.g1.psoftg1.shared.api.MapperInterface;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 @Mapper(componentModel = "spring")
 public abstract class AuthorViewMapper extends MapperInterface {
@@ -40,12 +41,12 @@ public abstract class AuthorViewMapper extends MapperInterface {
     public Map<String, Object> mapLinks(final Author author){
         String authorUri = ServletUriComponentsBuilder.fromCurrentContextPath()
                 .path("/api/authors/")
-                .path(author.getId().toString())
+                .path(String.valueOf(author.getId())) // Convert Long to String
                 .toUriString();
 
         String booksByAuthorUri = ServletUriComponentsBuilder.fromCurrentContextPath()
                 .path("/api/authors/")
-                .path(author.getId().toString())
+                .path(String.valueOf(author.getId())) // Convert Long to String
                 .path("/books")
                 .toUriString();
 
@@ -59,8 +60,12 @@ public abstract class AuthorViewMapper extends MapperInterface {
     }
 
     protected String generatePhotoUrl(Author author) {
-        String authorNumber = author.getAuthorId();
-        return ServletUriComponentsBuilder.fromCurrentContextPath().path("/api/authors/{authorNumber}/photo").buildAndExpand(authorNumber).toUri().toString();
+        String authorNumber = String.valueOf(author.getAuthorId()); // Convert Long to String
+        return ServletUriComponentsBuilder.fromCurrentContextPath()
+                .path("/api/authors/{authorNumber}/photo")
+                .buildAndExpand(authorNumber)
+                .toUri()
+                .toString();
     }
 
     @Named(value = "mapBookShortLink")
@@ -70,5 +75,4 @@ public abstract class AuthorViewMapper extends MapperInterface {
                 .path(book.getIsbn())
                 .toUriString();
     }
-
 }
