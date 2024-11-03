@@ -19,7 +19,6 @@ class BookTest {
     private final String validDescription = "A wonderful journey into the art of storytelling.";
     private final String validPhotoURI = "cover_image_url";
     
-    // Unique genres for testing
     private final Genre validGenre = new Genre("Fantasia_" + System.currentTimeMillis());
     
     private List<Author> authors;
@@ -28,7 +27,7 @@ class BookTest {
 
     @BeforeEach
     void setUp() {
-        // Arrange: Initialize authors list for each test
+        // Arrange
         authors = new ArrayList<>();
         authors.add(validAuthor1);
         authors.add(validAuthor2);
@@ -52,7 +51,7 @@ class BookTest {
         Book book = new Book(validIsbn, validTitle, validDescription, validGenre, authors, validPhotoURI);
     
         // Act
-        Title title = book.getTitle();  // Assuming Title is a String
+        Title title = book.getTitle();
 
         // Assert
         assertNotNull(title, "Title should not be null");

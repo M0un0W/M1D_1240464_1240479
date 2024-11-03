@@ -19,7 +19,7 @@ import pt.psoft.g1.psoftg1.usermanagement.model.Reader;
 public class ReaderTest {
 
     private final Reader mockReader = mock(Reader.class);
-    private final String validBirthDate = "2006-10-31"; // Valid date making the reader at least 18 years old
+    private final String validBirthDate = "2006-10-31";
     private final String validPhoneNumber = "912345678";
     private final String validPhotoURI = "readerPhotoTest.jpg";
 

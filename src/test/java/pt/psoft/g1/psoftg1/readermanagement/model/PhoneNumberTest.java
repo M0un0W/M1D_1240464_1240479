@@ -29,12 +29,12 @@ public class PhoneNumberTest {
     void ensureInvalidPhoneNumberThrowsException() {
         // Arrange
         String[] invalidNumbers = {
-            "12345678",     // Too short
-            "00123456789",  // Too long
-            "abcdefghij",   // Non-numeric
-            "512345678",    // Invalid start digit
-            "91234567",     // Too short by one digit
-            "21234567"      // Too short by one digit
+            "12345678",
+            "00123456789",
+            "abcdefghij",
+            "512345678",
+            "91234567",
+            "21234567"
         };
         
         // Act & Assert
@@ -81,8 +81,8 @@ public class PhoneNumberTest {
     @Test
     void ensureValidPhoneNumberWithEdgeCase() {
         // Arrange
-        String validEdgeCaseMobile = "900000000"; // Valid mobile number
-        String validEdgeCaseFixed = "200000000";  // Valid fixed number
+        String validEdgeCaseMobile = "900000000";
+        String validEdgeCaseFixed = "200000000";
         
         // Act & Assert
         assertDoesNotThrow(() -> new PhoneNumber(validEdgeCaseMobile));

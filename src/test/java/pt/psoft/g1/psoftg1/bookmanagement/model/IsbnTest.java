@@ -78,7 +78,7 @@ class IsbnTest {
     @Test
     void ensureIsbn10WithInvalidFormatThrowsException() {
         // Arrange
-        String invalidFormatIsbn10 = "817525766A"; // Invalid character
+        String invalidFormatIsbn10 = "817525766A";
 
         // Act & Assert
         assertThrows(IllegalArgumentException.class, () -> new Isbn(invalidFormatIsbn10));
@@ -87,7 +87,7 @@ class IsbnTest {
     @Test
     void ensureIsbn13WithInvalidFormatThrowsException() {
         // Arrange
-        String invalidFormatIsbn13 = "9782826012AB"; // Invalid characters
+        String invalidFormatIsbn13 = "9782826012AB";
 
         // Act & Assert
         assertThrows(IllegalArgumentException.class, () -> new Isbn(invalidFormatIsbn13));
@@ -96,8 +96,8 @@ class IsbnTest {
     @Test
     void ensureIsbnMustHaveValidLength() {
         // Arrange
-        String tooShortIsbn = "123456789"; // Too short
-        String tooLongIsbn = "12345678901234"; // Too long
+        String tooShortIsbn = "123456789";
+        String tooLongIsbn = "12345678901234";
 
         // Act & Assert
         assertThrows(IllegalArgumentException.class, () -> new Isbn(tooShortIsbn));
