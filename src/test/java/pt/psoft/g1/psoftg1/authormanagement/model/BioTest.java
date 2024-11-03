@@ -23,14 +23,14 @@ public class BioTest {
         // Arrange
         String emptyBio = "";
 
-        // Act & Assert for empty bio
+        // Act & Assert
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> new Bio(emptyBio));
         assertEquals("Bio cannot be blank", exception.getMessage());
         
-        // Arrange for whitespace bio
-        String whitespaceBio = "   "; // New variable for whitespace
+        // Arrange
+        String whitespaceBio = "   ";
 
-        // Act & Assert for whitespace only bio
+        // Act & Assert
         exception = assertThrows(IllegalArgumentException.class, () -> new Bio(whitespaceBio));
         assertEquals("Bio cannot be blank", exception.getMessage());
     }
@@ -38,7 +38,7 @@ public class BioTest {
     @Test
     void ensureBioMustNotBeOversize() {
         // Arrange
-        String oversizedBio = "a".repeat(4097); // Create a string larger than the maximum size
+        String oversizedBio = "a".repeat(4097);
 
         // Act & Assert
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> new Bio(oversizedBio));
@@ -79,10 +79,9 @@ public class BioTest {
     Bio bio = new Bio(bioWithHtml);
 
     // Assert
-    // Make sure sanitizeHtml is working correctly
     String sanitizedBio = StringUtilsCustom.sanitizeHtml(bioWithHtml);
-    assertEquals(sanitizedBio, bio.toString()); // Assert that sanitized bio equals the bio's string
-    assertEquals(" Hello World!", bio.toString()); // If sanitizeHtml is working, assert the expected output
+    assertEquals(sanitizedBio, bio.toString());
+    assertEquals(" Hello World!", bio.toString());
     }
 
 
@@ -105,7 +104,6 @@ public class BioTest {
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> bio.setBio(""));
         assertEquals("Bio cannot be blank", exception.getMessage());
         
-        // Test whitespace only bio
         exception = assertThrows(IllegalArgumentException.class, () -> bio.setBio("   "));
         assertEquals("Bio cannot be blank", exception.getMessage());
     }
@@ -114,7 +112,7 @@ public class BioTest {
     void ensureExceptionThrownForOversizeInSetBio() {
         // Arrange
         Bio bio = new Bio("Initial bio");
-        String oversizedBio = "a".repeat(4097); // Create a string larger than the maximum size
+        String oversizedBio = "a".repeat(4097);
 
         // Act & Assert
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> bio.setBio(oversizedBio));

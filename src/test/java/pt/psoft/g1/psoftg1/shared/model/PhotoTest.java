@@ -9,8 +9,6 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 
 class PhotoTest {
-
-    // Test to ensure that the constructor throws a NullPointerException when passed null.
     @Test
     void ensurePathMustNotBeNull() {
         // Arrange
@@ -20,7 +18,6 @@ class PhotoTest {
         assertThrows(NullPointerException.class, () -> new Photo(nullPath));
     }
 
-    // Test to ensure that the constructor correctly sets the photoFile property for a valid Path.
     @Test
     void ensurePathIsValidToLocalFile() {
         // Arrange
@@ -33,7 +30,6 @@ class PhotoTest {
         assertEquals("photoTest.jpg", photo.getPhotoFile(), "The photoFile should be set correctly.");
     }
 
-    // Test to ensure that the photoFile is set correctly when using an absolute path.
     @Test
     void ensurePhotoFileIsSetCorrectlyWithAbsolutePath() {
         // Arrange
@@ -46,7 +42,6 @@ class PhotoTest {
         assertEquals(absolutePath.toString(), photo.getPhotoFile(), "The photoFile should reflect the absolute path.");
     }
 
-    // Test to ensure that the photoFile is set correctly when using a normalized path.
     @Test
     void ensurePhotoFileIsSetCorrectlyWithNormalizedPath() {
         // Arrange
@@ -59,7 +54,6 @@ class PhotoTest {
         assertEquals(unnormalizedPath.toString(), photo.getPhotoFile(), "The photoFile should be normalized.");
     }
 
-    // Test to ensure that the constructor handles paths with different formats (e.g., different separators).
     @Test
     void ensureConstructorHandlesDifferentPathFormats() {
         // Arrange
@@ -73,7 +67,6 @@ class PhotoTest {
                      "The photoFile should handle different path formats correctly.");
     }
 
-    // Test to check the default constructor initializes an empty Photo object.
     @Test
     void ensureDefaultConstructorInitializesCorrectly() {
         // Arrange & Act
@@ -83,7 +76,6 @@ class PhotoTest {
         assertNull(photo.getPhotoFile(), "The photoFile should be null when initialized with the default constructor.");
     }
 
-    // Test to ensure that a NullPointerException is thrown if setPhotoFile is called with a null argument.
     @Test
     void ensureSetPhotoFileThrowsExceptionOnNull() {
         // Arrange
@@ -94,7 +86,6 @@ class PhotoTest {
                      "setPhotoFile should throw NullPointerException on null input.");
     }
 
-    // Test to ensure that setPhotoFile correctly updates the photoFile attribute.
     @Test
     void ensureSetPhotoFileUpdatesPhotoFile() {
         // Arrange

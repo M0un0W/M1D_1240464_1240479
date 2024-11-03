@@ -1,8 +1,15 @@
 package pt.psoft.g1.psoftg1.authormanagement.model;
 
-import jakarta.persistence.*;
-import lombok.Getter;
 import org.hibernate.StaleObjectStateException;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Embedded;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Version;
+import lombok.Getter;
 import pt.psoft.g1.psoftg1.authormanagement.services.UpdateAuthorRequest;
 import pt.psoft.g1.psoftg1.exceptions.ConflictException;
 import pt.psoft.g1.psoftg1.shared.model.EntityWithPhoto;
@@ -41,6 +48,10 @@ public class Author extends EntityWithPhoto {
         return authorNumber;
     }
 
+    public Long getAuthorId() {
+        return getId(); // Added method
+    }
+
     public Author(String name, String bio, String photoURI) {
         setName(name);
         setBio(bio);
@@ -50,7 +61,6 @@ public class Author extends EntityWithPhoto {
     protected Author() {
         // got ORM only
     }
-
 
     public void applyPatch(final long desiredVersion, final UpdateAuthorRequest request) {
         if (this.version != desiredVersion)
@@ -70,6 +80,7 @@ public class Author extends EntityWithPhoto {
 
         setPhotoInternal(null);
     }
+    
     public String getName() {
         return this.name.toString();
     }
@@ -78,4 +89,3 @@ public class Author extends EntityWithPhoto {
         return this.bio.toString();
     }
 }
-

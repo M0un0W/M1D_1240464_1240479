@@ -22,12 +22,11 @@ class AuthorTest {
 
     @BeforeEach
     void setUp() {
-        // Setup any shared resources here if needed
     }
 
     @Test
     void ensureNameNotNull() {
-        // Arrange - No specific setup needed as we're testing for a null name
+        // Arrange
 
         // Act & Assert
         assertThrows(IllegalArgumentException.class, () -> new Author(null, validBio, null), 
@@ -36,7 +35,7 @@ class AuthorTest {
 
     @Test
     void ensureBioNotNull() {
-        // Arrange - No specific setup needed as we're testing for a null bio
+        // Arrange
 
         // Act & Assert
         assertThrows(IllegalArgumentException.class, () -> new Author(validName, null, null), 
@@ -108,7 +107,7 @@ class AuthorTest {
 
     @Test
     void ensurePhotoCanBeNull_AkaOptional() {
-        // Arrange - No photo is provided
+        // Arrange
 
         // Act
         Author author = new Author(validName, validBio, null);
@@ -130,8 +129,6 @@ class AuthorTest {
         assertNotNull(photo, "Photo should not be null when valid URI is provided");
         assertEquals(photoURI, photo.getPhotoFile(), "Photo URI should match the expected value");
     }
-
-    // Additional Tests for Edge Cases
 
     @Test
     void testCreateAuthorWithEmptyName() {
@@ -156,7 +153,7 @@ class AuthorTest {
     @Test
     void testCreateAuthorWithLongName() {
         // Arrange
-        String longName = "A".repeat(1000);  // Simulate a very long name
+        String longName = "A".repeat(1000);
 
         // Act
         Author author = new Author(longName, validBio, null);

@@ -11,7 +11,7 @@ class TitleTest {
     private static final String EMPTY_TITLE = "";
     private static final String NULL_TITLE = null;
     private static final String WHITESPACE_TITLE = "   ";
-    private static final String OVERSIZE_TITLE = "A".repeat(129); // 129 characters, one over the limit
+    private static final String OVERSIZE_TITLE = "A".repeat(129);
 
     @Test
     void ensureTitleMustNotBeNull() {

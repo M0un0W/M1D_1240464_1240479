@@ -22,7 +22,7 @@ class DescriptionTest {
     @Test
     void ensureDescriptionMustNotBeOversize() {
         // Arrange
-        String oversizedDescription = "A".repeat(4097); // Create a string longer than the max length
+        String oversizedDescription = "A".repeat(4097);
         
         // Act & Assert
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> new Description(oversizedDescription));

@@ -1,20 +1,23 @@
 package pt.psoft.g1.psoftg1.lendingmanagement.model;
 
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.PropertySource;
-import pt.psoft.g1.psoftg1.authormanagement.model.Author;
-import pt.psoft.g1.psoftg1.bookmanagement.model.Book;
-import pt.psoft.g1.psoftg1.genremanagement.model.Genre;
-import pt.psoft.g1.psoftg1.readermanagement.model.ReaderDetails;
-import pt.psoft.g1.psoftg1.usermanagement.model.Reader;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
+
+import pt.psoft.g1.psoftg1.authormanagement.model.Author;
+import pt.psoft.g1.psoftg1.bookmanagement.model.Book;
+import pt.psoft.g1.psoftg1.bookmanagement.model.Title;
+import pt.psoft.g1.psoftg1.genremanagement.model.Genre;
+import pt.psoft.g1.psoftg1.readermanagement.model.ReaderDetails;
+import pt.psoft.g1.psoftg1.usermanagement.model.Reader;
 
 @PropertySource({"classpath:config/library.properties"})
 class LendingTest {
@@ -22,10 +25,10 @@ class LendingTest {
     private static Book book;
     private static ReaderDetails readerDetails;
     
-    @Value("${lendingDurationInDays}")
+    @Value("")
     private int lendingDurationInDays;
     
-    @Value("${fineValuePerDayInCents}")
+    @Value("")
     private int fineValuePerDayInCents;
 
     @BeforeAll
@@ -139,7 +142,7 @@ class LendingTest {
         Lending lending = new Lending(book, readerDetails, 1, lendingDurationInDays, fineValuePerDayInCents);
         
         // Act
-        String title = lending.getTitle();
+        Title title = lending.getTitle();
         
         // Assert
         assertEquals("O Inspetor Max", title);

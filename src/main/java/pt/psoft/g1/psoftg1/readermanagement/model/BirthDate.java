@@ -1,14 +1,19 @@
 package pt.psoft.g1.psoftg1.readermanagement.model;
 
-import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import java.time.LocalDate;
+import java.time.Period;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.security.access.AccessDeniedException;
 
-import java.time.LocalDate;
-import java.time.Period;
+import jakarta.persistence.Column;
+import jakarta.persistence.Embeddable;
+import jakarta.persistence.Temporal;
+import jakarta.persistence.TemporalType;
+import jakarta.persistence.Transient;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Embeddable
 @NoArgsConstructor
@@ -31,7 +36,7 @@ public class BirthDate {
     }
 
     public BirthDate(String birthDate) {
-        if(!birthDate.matches(dateFormatRegexPattern)) {
+        if (!birthDate.matches(dateFormatRegexPattern)) {
             throw new IllegalArgumentException("Provided birth date is not in a valid format. Use yyyy-MM-dd");
         }
 
@@ -47,23 +52,29 @@ public class BirthDate {
     private void setBirthDate(int year, int month, int day) {
         LocalDate userDate = LocalDate.of(year, month, day);
         LocalDate minimumAgeDate = LocalDate.now().minusYears(minimumAge);
-        
+
         // Explicit age calculation
         int age = Period.between(userDate, LocalDate.now()).getYears();
-        
+
         // Debug print statements
         System.out.println("User's birth date: " + userDate);
         System.out.println("Minimum age date: " + minimumAgeDate);
         System.out.println("Calculated age: " + age);
         System.out.println("Minimum age: " + minimumAge);
-        
+
         // Throw exception if user is younger than minimum age
         if (userDate.isAfter(minimumAgeDate)) {
-            throw new AccessDeniedException("User must be, at least, 18years old");
+            throw new AccessDeniedException("User must be, at least, " + minimumAge + " years old");
         }
-    
+
         this.birthDate = userDate;
     }
+
+    // Method to calculate the age of the user based on the birthDate
+    public int calculateAge() {
+        return Period.between(this.birthDate, LocalDate.now()).getYears();
+    }
+
     public String toString() {
         return String.format("%d-%d-%d", this.birthDate.getYear(), this.birthDate.getMonthValue(), this.birthDate.getDayOfMonth());
     }

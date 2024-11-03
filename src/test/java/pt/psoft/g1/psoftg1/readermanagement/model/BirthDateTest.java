@@ -1,12 +1,15 @@
 package pt.psoft.g1.psoftg1.readermanagement.model;
 
+import java.time.LocalDate;
+
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.test.util.ReflectionTestUtils;
-
-import java.time.LocalDate;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class BirthDateTest {
 
@@ -59,7 +62,6 @@ class BirthDateTest {
             "Should throw IllegalArgumentException for invalid date format"
         );
 
-        // Additional Assert
         assertEquals(
             "Provided birth date is not in a valid format. Use yyyy-MM-dd", 
             exception.getMessage()
@@ -90,11 +92,9 @@ class BirthDateTest {
     void shouldThrowAccessDeniedExceptionForTooYoungAge() {
         // Arrange
         BirthDate birthDate = new BirthDate(2000, 1, 1);
-        
-        // Explicitly set the minimum age using reflection
+
         ReflectionTestUtils.setField(birthDate, "minimumAge", 18);
-    
-        // Create a date that is definitely too young
+
         LocalDate tooYoungDate = LocalDate.now().minusYears(16);
     
         // Act & Assert
@@ -104,12 +104,10 @@ class BirthDateTest {
             "Should throw AccessDeniedException for age below minimum"
         );
     
-        // Extensive debugging
         System.out.println("Actual exception message: '" + exception.getMessage() + "'");
         System.out.println("Expected substring: 'User must be, at least, 18years old'");
         System.out.println("Contains expected text: " + exception.getMessage().contains("User must be, at least, 18years old"));
     
-        // Additional assertion
         assertTrue(
             exception.getMessage().equals("User must be, at least, 18years old"),
             "Exception message should exactly match the expected text"
